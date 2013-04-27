@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://0install.net/2007/3rd-party/libsvn1.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>libsvn1</name>
+  <summary>shared libraries used by Subversion</summary>
+  <description>
+This package includes shared libraries to manipulate Subversion (svn)
+repositories and working copies.</description>
+  <group>
+    <implementation arch="Linux-i386" id="sha1new=6d8c6bcd9503ea2ee9665d6505957af9e80a3694" released="2007-01-20" stability="stable" version="1.4.2">
+    <archive href="http://ftp.uk.debian.org/debian/pool/main/s/subversion/libsvn1_1.4.2dfsg1-2_i386.deb" size="593108" type="application/x-deb"/>
+  </implementation>
+    <requires interface="http://0install.net/2007/3rd-party/libapr1.xml">
+      <environment insert="usr/lib" mode="prepend" name="LD_LIBRARY_PATH"/>
+      <version not-before="1.2.7"/>
+    </requires>
+    <requires interface="http://0install.net/2007/3rd-party/libaprutil1.xml">
+      <environment insert="usr/lib" mode="prepend" name="LD_LIBRARY_PATH"/>
+      <version not-before="1.2.7"/>
+    </requires>
+    <requires interface="http://0install.net/2007/3rd-party/libneon26.xml">
+      <environment insert="usr/lib" mode="prepend" name="LD_LIBRARY_PATH"/>
+      <version not-before="0.26.2"/>
+    </requires>
+  </group>
+  <group>
+    <requires interface="http://0install.net/2007/3rd-party/libapr1.xml">
+      <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
+    </requires>
+    <requires interface="http://0install.net/2007/3rd-party/libaprutil1.xml">
+      <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
+    </requires>
+    <requires interface="http://0install.net/2007/3rd-party/libdb4.6.xml">
+      <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
+    </requires>
+    <requires interface="http://0install.net/2007/3rd-party/libneon27-gnutls.xml">
+      <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
+    </requires>
+    <requires interface="http://0install.net/2007/3rd-party/libsasl2-2.xml">
+      <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
+    </requires>
+    <requires interface="http://0install.net/2007/3rd-party/libserf-0-0.xml">
+      <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
+    </requires>
+    <implementation arch="Linux-i386" id="sha1new=fd765195629f233fa6883005736ba5391dde0380" released="2009-09-25" version="1.5.1">
+      <archive href="http://ftp.debian.org/debian/pool/main/s/subversion/libsvn1_1.5.1dfsg1-4_i386.deb" size="793692"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=3ad575bcd43cbb927d8d6e316101c3f69c40ae14" released="2009-09-25" version="1.5.1">
+      <archive href="http://ftp.debian.org/debian/pool/main/s/subversion/libsvn1_1.5.1dfsg1-4_amd64.deb" size="864266"/>
+    </implementation>
+  </group>
+</interface>
