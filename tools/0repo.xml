@@ -1,5 +1,4 @@
 <?xml version="1.0" ?>
-<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
 <interface uri="http://0install.net/tools/0repo.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>0repo</name>
   <summary>manage a repository of 0install feeds</summary>
@@ -11,8 +10,7 @@
   </description>
   <homepage>http://0install.net/0repo.html</homepage>
 
-  <release:management xmlns:release="http://zero-install.sourceforge.net/2007/namespaces/0release">
-    <!-- Update the copy of the version number in the code -->
+  <release:management xmlns:release="http://zero-install.sourceforge.net/2007/namespaces/0release"><!-- Update the copy of the version number in the code -->
     <release:action phase="commit-release">sed -i &quot;s/^version = '.*'$/version = '$RELEASE_VERSION'/&quot; 0repo.py</release:action>
   </release:management>
 
@@ -45,4 +43,24 @@
     </implementation>
   </group>
 
+  <group>
+    <requires interface="http://repo.roscidus.com/python/python">
+      <version before="3" not-before="2.7"/>
+    </requires>
+    <requires interface="http://0install.net/2007/interfaces/ZeroInstall.xml">
+      <environment insert="" mode="prepend" name="PYTHONPATH"/>
+      <version not-before="2.2"/>
+    </requires>
+    <command name="test" path="tests/runall.py">
+      <runner interface="http://repo.roscidus.com/python/python"/>
+      <executable-in-path name="0repo"/>
+    </command>
+    <command name="run" path="0repo.py">
+      <runner interface="http://repo.roscidus.com/python/python"/>
+    </command>
+    <implementation id="sha1new=dd216a0f13d28e3559040673748375eeb3892274" license="OSI Approved :: GNU Lesser General Public License (LGPL)" released="2013-05-05" version="0.2">
+      <manifest-digest sha256new="GQP2DQNZV3T6NVFU6EEPXE6GNR2PZ2YMWPM5NN64GW3N2EVH4YSA"/>
+      <archive extract="0repo-0.2" href="0repo-0.2.tar.bz2" size="52074"/>
+    </implementation>
+  </group>
 </interface>
