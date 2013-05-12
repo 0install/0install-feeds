@@ -19,48 +19,44 @@
       <runner interface="http://repo.roscidus.com/python/python"/>
     </command>
 
-    <command name="test" path="tests/test0repo.py">
-      <runner interface="http://repo.roscidus.com/python/python"/>
-      <executable-in-path name="0repo"/>
-    </command>
-
     <requires interface="http://repo.roscidus.com/python/python">
       <version before="3" not-before="2.7"/>
     </requires>
 
-    <requires interface="http://0install.net/2006/interfaces/0publish">
-      <executable-in-var name="ZEROPUBLISH"/>
-    </requires>
+    <group>
+      <command name="test" path="tests/test0repo.py">
+	<runner interface="http://repo.roscidus.com/python/python"/>
+	<executable-in-path name="0repo"/>
+      </command>
 
-    <requires interface="http://0install.net/2007/interfaces/ZeroInstall.xml">
-      <environment insert="" mode="prepend" name="PYTHONPATH"/>
-      <version not-before="2.2"/>
-    </requires>
+      <requires interface="http://0install.net/2006/interfaces/0publish">
+	<executable-in-var name="ZEROPUBLISH"/>
+      </requires>
 
-    <implementation id="sha1new=83e04487e2691fc722be397d673bd284bd09723d" released="2013-05-02" version="0.1">
-      <manifest-digest sha256new="TRQFEPTMXP7NMDA53PKEATAI5AZ7ALMLXRVNWVZ5S7V4KWDWE4UA"/>
-      <archive extract="0repo-0.1" href="0repo-0.1.tar.bz2" size="42276"/>
-    </implementation>
-  </group>
+      <requires interface="http://0install.net/2007/interfaces/ZeroInstall.xml">
+	<environment insert="" mode="prepend" name="PYTHONPATH"/>
+	<version not-before="2.2" before='2.3'/>
+      </requires>
 
-  <group>
-    <requires interface="http://repo.roscidus.com/python/python">
-      <version before="3" not-before="2.7"/>
-    </requires>
-    <requires interface="http://0install.net/2007/interfaces/ZeroInstall.xml">
-      <environment insert="" mode="prepend" name="PYTHONPATH"/>
-      <version not-before="2.2"/>
-    </requires>
-    <command name="test" path="tests/runall.py">
-      <runner interface="http://repo.roscidus.com/python/python"/>
-      <executable-in-path name="0repo"/>
-    </command>
-    <command name="run" path="0repo.py">
-      <runner interface="http://repo.roscidus.com/python/python"/>
-    </command>
-    <implementation id="sha1new=dd216a0f13d28e3559040673748375eeb3892274" license="OSI Approved :: GNU Lesser General Public License (LGPL)" released="2013-05-05" version="0.2">
-      <manifest-digest sha256new="GQP2DQNZV3T6NVFU6EEPXE6GNR2PZ2YMWPM5NN64GW3N2EVH4YSA"/>
-      <archive extract="0repo-0.2" href="0repo-0.2.tar.bz2" size="52074"/>
-    </implementation>
+      <implementation id="sha1new=83e04487e2691fc722be397d673bd284bd09723d" released="2013-05-02" version="0.1">
+	<manifest-digest sha256new="TRQFEPTMXP7NMDA53PKEATAI5AZ7ALMLXRVNWVZ5S7V4KWDWE4UA"/>
+	<archive extract="0repo-0.1" href="0repo-0.1.tar.bz2" size="42276"/>
+      </implementation>
+    </group>
+
+    <group>
+      <requires interface="http://0install.net/2007/interfaces/ZeroInstall.xml">
+	<environment insert="" mode="prepend" name="PYTHONPATH"/>
+	<version not-before="2.2" before='2.3'/>
+      </requires>
+      <command name="test" path="tests/runall.py">
+	<runner interface="http://repo.roscidus.com/python/python"/>
+	<executable-in-path name="0repo"/>
+      </command>
+      <implementation id="sha1new=dd216a0f13d28e3559040673748375eeb3892274" released="2013-05-05" version="0.2">
+	<manifest-digest sha256new="GQP2DQNZV3T6NVFU6EEPXE6GNR2PZ2YMWPM5NN64GW3N2EVH4YSA"/>
+	<archive extract="0repo-0.2" href="0repo-0.2.tar.bz2" size="52074"/>
+      </implementation>
+    </group>
   </group>
 </interface>
