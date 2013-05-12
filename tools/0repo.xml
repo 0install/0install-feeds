@@ -35,7 +35,7 @@
 
       <requires interface="http://0install.net/2007/interfaces/ZeroInstall.xml">
 	<environment insert="" mode="prepend" name="PYTHONPATH"/>
-	<version not-before="2.2" before='2.3'/>
+	<version not-before="2.2" before='2.2-post'/>
       </requires>
 
       <implementation id="sha1new=83e04487e2691fc722be397d673bd284bd09723d" released="2013-05-02" version="0.1">
@@ -47,7 +47,7 @@
     <group>
       <requires interface="http://0install.net/2007/interfaces/ZeroInstall.xml">
 	<environment insert="" mode="prepend" name="PYTHONPATH"/>
-	<version not-before="2.2" before='2.3'/>
+	<version not-before="2.2" before='2.2-post'/>
       </requires>
       <command name="test" path="tests/runall.py">
 	<runner interface="http://repo.roscidus.com/python/python"/>
