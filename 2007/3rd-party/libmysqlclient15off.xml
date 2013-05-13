@@ -14,10 +14,10 @@ This package includes the client library.</description>
     <requires interface="http://0install.net/2007/3rd-party/mysql-common.xml">
       <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
     </requires>
-    <implementation id="sha1new=3ab5b7c97734104685866b4f4d3b89fb71d87468" released="2009-09-25" version="5.0.51">
+    <implementation id="sha1new=3ab5b7c97734104685866b4f4d3b89fb71d87468" released="2009-09-25" stability="stable" version="5.0.51">
       <archive href="http://ftp.debian.org/debian/pool/main/m/mysql-dfsg-5.0/libmysqlclient15off_5.0.51a-24+lenny2_i386.deb" size="1859180"/>
     </implementation>
-    <implementation arch="Linux-x86_64" id="sha1new=74d2ad6a90a774ad97e691af3d74b82ad9aa7ad3" released="2009-09-25" version="5.0.51">
+    <implementation arch="Linux-x86_64" id="sha1new=74d2ad6a90a774ad97e691af3d74b82ad9aa7ad3" released="2009-09-25" stability="stable" version="5.0.51">
       <archive href="http://ftp.debian.org/debian/pool/main/m/mysql-dfsg-5.0/libmysqlclient15off_5.0.51a-24+lenny2_amd64.deb" size="1905520"/>
     </implementation>
   </group>

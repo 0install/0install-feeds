@@ -34,7 +34,7 @@
       <version not-before="2.0"/>
     </requires>
 
-    <implementation id="sha1new=dec3cbacde62afc57cca4c111b4a85ba3f030df3" released="2013-03-09" version="0.1">
+    <implementation id="sha1new=dec3cbacde62afc57cca4c111b4a85ba3f030df3" released="2013-03-09" stability="stable" version="0.1">
       <manifest-digest sha256new="TPC5QVL4RVSCQ43OPTG6NMMFFNY6CW4FXCIMTAPWSYSNB2HC6DKQ"/>
       <archive extract="0template-0.1" href="http://downloads.sourceforge.net/project/zero-install/0template/0.1/0template-0.1.tar.bz2" size="14210"/>
     </implementation>

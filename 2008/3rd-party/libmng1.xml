@@ -10,10 +10,10 @@ JPEG library by the Independent JPEG Group (IJG) and/or
 lcms (little cms), a color-management library by Marti Maria Saguar.</description>
   <package-implementation package="libmng1"/>
   <group arch="Linux-i386">
-    <implementation id="sha1new=bbdd457cf5026bf3ec7e0eccf492d35982550cbc" released="2008-08-17" version="1.0.9-1">
+    <implementation id="sha1new=bbdd457cf5026bf3ec7e0eccf492d35982550cbc" released="2008-08-17" stability="stable" version="1.0.9-1">
       <archive href="http://ftp.debian.org/debian/pool/main/libm/libmng/libmng1_1.0.9-1_i386.deb" size="189486"/>
     </implementation>
-    <implementation arch="Linux-x86_64" id="sha1new=6dafb2b4ab9b43ebd97d13e94a08a3039c0423a8" released="2008-08-17" version="1.0.9-1">
+    <implementation arch="Linux-x86_64" id="sha1new=6dafb2b4ab9b43ebd97d13e94a08a3039c0423a8" released="2008-08-17" stability="stable" version="1.0.9-1">
       <archive href="http://ftp.debian.org/debian/pool/main/libm/libmng/libmng1_1.0.9-1_amd64.deb" size="196186"/>
     </implementation>
   </group>

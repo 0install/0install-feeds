@@ -10,12 +10,12 @@ Homepage: http://home-2.consunet.nl/~cb007736/groundhog.html</description>
   <category>Game</category>
   <package-implementation main="/usr/games/groundhog" package="groundhog"/>
   <group arch="Linux-x86_64">
-    <implementation id="sha1new=badfd24c46f5d9a8dbb7b842d33c3392256c773d" main="usr/games/groundhog" released="2008-05-26" version="1.4-8">
+    <implementation id="sha1new=badfd24c46f5d9a8dbb7b842d33c3392256c773d" main="usr/games/groundhog" released="2008-05-26" stability="stable" version="1.4-8">
       <archive href="http://ftp.debian.org/debian/pool/main/g/groundhog/groundhog_1.4-8_amd64.deb" size="36208"/>
     </implementation>
   </group>
   <group arch="Linux-i386">
-    <implementation id="sha1new=e13621865079be9109bc2101396a1a3934dfa244" main="usr/games/groundhog" released="2008-05-26" version="1.4-8">
+    <implementation id="sha1new=e13621865079be9109bc2101396a1a3934dfa244" main="usr/games/groundhog" released="2008-05-26" stability="stable" version="1.4-8">
       <archive href="http://ftp.debian.org/debian/pool/main/g/groundhog/groundhog_1.4-8_i386.deb" size="34736"/>
     </implementation>
   </group>

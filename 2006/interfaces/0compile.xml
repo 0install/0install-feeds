@@ -386,7 +386,7 @@ For a full tutorial, see 0compile's homepage.</description>
 	<version before="3"/>
       </runner>
     </command>
-      <implementation id="sha1new=5d11d6a774f261b408f3c57dce8819481d842f90" released="2013-04-03" version="1.1">
+      <implementation id="sha1new=5d11d6a774f261b408f3c57dce8819481d842f90" released="2013-04-03" stability="stable" version="1.1">
       <manifest-digest sha256new="O3KHHM43T7KI3NPRZ4BJOFERQ2TI4J525ZU55GM5CW4K5QPM5NIQ"/>
       <archive extract="0compile-1.1" href="http://downloads.sourceforge.net/project/zero-install/0compile/1.1/0compile-1.1.tar.bz2" size="36103"/>
     </implementation>

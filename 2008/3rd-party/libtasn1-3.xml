@@ -15,10 +15,10 @@ The main features of this library are:
 This package contains runtime libraries.</description>
   <package-implementation package="libtasn1-3"/>
   <group arch="Linux-i386">
-    <implementation id="sha1new=1d14c23ce23c5a984315c8db24b2d41016ca6ee7" released="2008-08-16" version="0.3.6-2">
+    <implementation id="sha1new=1d14c23ce23c5a984315c8db24b2d41016ca6ee7" released="2008-08-16" stability="stable" version="0.3.6-2">
       <archive href="http://ftp.debian.org/debian/pool/main/libt/libtasn1-3/libtasn1-3_0.3.6-2_i386.deb" size="52868"/>
     </implementation>
-    <implementation arch="Linux-x86_64" id="sha1new=45a26e38851ac42802c7a3838a92037b85d33809" released="2008-08-16" version="0.3.6-2">
+    <implementation arch="Linux-x86_64" id="sha1new=45a26e38851ac42802c7a3838a92037b85d33809" released="2008-08-16" stability="stable" version="0.3.6-2">
       <archive href="http://ftp.debian.org/debian/pool/main/libt/libtasn1-3/libtasn1-3_0.3.6-2_amd64.deb" size="55702"/>
     </implementation>
   </group>

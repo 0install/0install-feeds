@@ -24,13 +24,13 @@
       <command name="compile" shell-command="mcs &quot;$SRCDIR/runenv.cli.cs&quot; -out:&quot;$DISTDIR/runenv.cli.template&quot;">
       <compile:implementation arch="*-*"/>
     </command>
-      <implementation arch="*-src" id="sha1new=80c76895c3ba81f6d94e78c936d2c5b8b4d3d96b" released="2013-03-18" version="2.0.2">
+      <implementation arch="*-src" id="sha1new=80c76895c3ba81f6d94e78c936d2c5b8b4d3d96b" released="2013-03-18" stability="stable" version="2.0.2">
       <manifest-digest sha256new="H3ARQQ3OW2K6YGBWVBG3X5R6DL6534ZQ6WYMRJZM4UIKHYH6XHSQ"/>
       <archive extract="0install-runenv-cli-2.0.2" href="http://downloads.sourceforge.net/project/zero-install/runenv-cli/2.0.2/0install-runenv-cli-2.0.2.tar.bz2" size="3503"/>
     </implementation>
     </group>
   </group>
-  <implementation id="sha1new=78f12032eb296233909aa5f6ec4aae8cbb9c121a" released="2013-03-18" version="2.0.2">
+  <implementation id="sha1new=78f12032eb296233909aa5f6ec4aae8cbb9c121a" released="2013-03-18" stability="stable" version="2.0.2">
       <manifest-digest sha256new="XMEYQHKYT7CNDYAWDQHGDIDJK2QORBV5KRFQX6BQ7RNXTANR6PGQ"/>
       <archive extract="0install-runenv-cli-bin-2.0.2" href="http://downloads.sourceforge.net/project/zero-install/runenv-cli/2.0.2/0install-runenv-cli-bin-2.0.2.tar.bz2" size="3554"/>
     </implementation>

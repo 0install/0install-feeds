@@ -27,7 +27,7 @@ text, with an emphasis on internationalization.</description>
         <environment insert="lib/pkgconfig" mode="prepend" name="PKG_CONFIG_PATH"/>
         <environment insert="bin" mode="prepend" name="PATH"/>
       </requires>
-      <implementation id="sha1new=b359f1b41ad3da0855777034eaf0199259690b9f" released="2008-05-10" version="1.20.2">
+      <implementation id="sha1new=b359f1b41ad3da0855777034eaf0199259690b9f" released="2008-05-10" stability="stable" version="1.20.2">
         <archive extract="pango-1.20.2" href="http://ftp.gnome.org/pub/gnome/sources/pango/1.20/pango-1.20.2.tar.bz2" size="1414871" type="application/x-bzip-compressed-tar"/>
       </implementation>
     </group>

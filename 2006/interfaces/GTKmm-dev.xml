@@ -13,7 +13,7 @@ applications that use the GTK, ATK or Pango libraries..</description>
       <archive extract="gtkmm-headers-2.4.11" href="http://downloads.sourceforge.net/project/zero-install/GTK/2.4.11/gtkmm-headers-2.4.11.tar.bz2" size="292375" type="application/x-bzip-compressed-tar"/>
       <manifest-digest sha1new="46d5a63b0d2be0b94de2ed27b0a88e7dba3978e8"/>
     </implementation>
-    <implementation id="sha1new=6f476e3e2ad00148ee32a3c4e36ecf6d71933e58" released="2008-05-10" version="2.12.7">
+    <implementation id="sha1new=6f476e3e2ad00148ee32a3c4e36ecf6d71933e58" released="2008-05-10" stability="stable" version="2.12.7">
       <archive extract="gtkmm-dev-linux-x86_64-2.12.7" href="http://downloads.sourceforge.net/project/zero-install/3rd-party/0/gtkmm-dev-linux-x86_64-2.12.7.tar.bz2" size="396941" type="application/x-bzip-compressed-tar"/>
     </implementation>
   </group>

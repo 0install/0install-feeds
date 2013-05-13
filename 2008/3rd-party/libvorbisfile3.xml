@@ -11,10 +11,10 @@ The Vorbisfile library provides a convenient high-level API for decoding
 and basic manipulation of all Vorbis I audio streams.</description>
   <package-implementation package="libvorbisfile3"/>
   <group arch="Linux-i386">
-    <implementation id="sha1new=006bbd812b88aea47b607dab742842caabd18493" released="2008-08-17" version="1.1.2">
+    <implementation id="sha1new=006bbd812b88aea47b607dab742842caabd18493" released="2008-08-17" stability="stable" version="1.1.2">
       <archive href="http://ftp.debian.org/debian/pool/main/libv/libvorbis/libvorbisfile3_1.1.2.dfsg-1.4_i386.deb" size="18884"/>
     </implementation>
-    <implementation arch="Linux-x86_64" id="sha1new=02ad5dc930f4ef4a73278480c1c488cc625fcfdf" released="2008-08-17" version="1.1.2">
+    <implementation arch="Linux-x86_64" id="sha1new=02ad5dc930f4ef4a73278480c1c488cc625fcfdf" released="2008-08-17" stability="stable" version="1.1.2">
       <archive href="http://ftp.debian.org/debian/pool/main/libv/libvorbis/libvorbisfile3_1.1.2.dfsg-1.4_amd64.deb" size="17790"/>
     </implementation>
   </group>

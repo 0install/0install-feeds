@@ -22,10 +22,10 @@ you must install some of the libsasl2-modules* packages.</description>
     <requires interface="http://0install.net/2007/3rd-party/libdb4.6.xml">
       <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
     </requires>
-    <implementation id="sha1new=eb8215753fa6ed28bab588f8e6b59f75ea621ddd" released="2009-09-25" version="2.1.22">
+    <implementation id="sha1new=eb8215753fa6ed28bab588f8e6b59f75ea621ddd" released="2009-09-25" stability="stable" version="2.1.22">
       <archive href="http://ftp.debian.org/debian/pool/main/c/cyrus-sasl2/libsasl2-2_2.1.22.dfsg1-23+lenny1_i386.deb" size="105514"/>
     </implementation>
-    <implementation arch="Linux-x86_64" id="sha1new=ce00944b323777c892c8e6dc8e7bee28072f3104" released="2009-09-25" version="2.1.22">
+    <implementation arch="Linux-x86_64" id="sha1new=ce00944b323777c892c8e6dc8e7bee28072f3104" released="2009-09-25" stability="stable" version="2.1.22">
       <archive href="http://ftp.debian.org/debian/pool/main/c/cyrus-sasl2/libsasl2-2_2.1.22.dfsg1-23+lenny1_amd64.deb" size="114804"/>
     </implementation>
   </group>

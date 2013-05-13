@@ -34,10 +34,10 @@ repository (svnadmin) and to make a repository available over a network
     <requires interface="http://0install.net/2007/3rd-party/libsasl2-2.xml">
       <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
     </requires>
-    <implementation arch="Linux-i386" id="sha1new=5b798c33aae53cac9ef61780a6545ff78d14c86d" main="usr/bin/svn" released="2009-09-25" version="1.5.1">
+    <implementation arch="Linux-i386" id="sha1new=5b798c33aae53cac9ef61780a6545ff78d14c86d" main="usr/bin/svn" released="2009-09-25" stability="stable" version="1.5.1">
       <archive href="http://ftp.debian.org/debian/pool/main/s/subversion/subversion_1.5.1dfsg1-4_i386.deb" size="1270554"/>
     </implementation>
-    <implementation arch="Linux-x86_64" id="sha1new=825ea741466fbe260a82748dc10200fbd62f7d30" main="usr/bin/svn" released="2009-09-25" version="1.5.1">
+    <implementation arch="Linux-x86_64" id="sha1new=825ea741466fbe260a82748dc10200fbd62f7d30" main="usr/bin/svn" released="2009-09-25" stability="stable" version="1.5.1">
       <archive href="http://ftp.debian.org/debian/pool/main/s/subversion/subversion_1.5.1dfsg1-4_amd64.deb" size="1283306"/>
     </implementation>
   </group>

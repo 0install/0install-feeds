@@ -12,7 +12,7 @@ This package includes files needed by all versions of the client library
 (e.g. /etc/mysql/my.cnf).</description>
   <package-implementation package="mysql-common"/>
   <group arch="Linux-*">
-    <implementation id="sha1new=6e97b5e5263f98081e56b13691fff0813781699f" released="2009-09-25" version="5.0.51">
+    <implementation id="sha1new=6e97b5e5263f98081e56b13691fff0813781699f" released="2009-09-25" stability="stable" version="5.0.51">
       <archive href="http://ftp.debian.org/debian/pool/main/m/mysql-dfsg-5.0/mysql-common_5.0.51a-24+lenny2_all.deb" size="60754"/>
     </implementation>
   </group>

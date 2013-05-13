@@ -42,10 +42,10 @@ Current features:
     <requires interface="http://0install.net/2007/3rd-party/libxml2.xml">
       <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
     </requires>
-    <implementation id="sha1new=4a15b053a362d5c29d09b0fbd59acaef931cb82b" released="2009-09-25" version="0.28.2-6.1">
+    <implementation id="sha1new=4a15b053a362d5c29d09b0fbd59acaef931cb82b" released="2009-09-25" stability="stable" version="0.28.2-6.1">
       <archive href="http://ftp.debian.org/debian/pool/main/n/neon27/libneon27-gnutls_0.28.2-6.1_i386.deb" size="114736"/>
     </implementation>
-    <implementation arch="Linux-x86_64" id="sha1new=000d1426b3ef92bbfb3c8655e9e324aa1c8a24a3" released="2009-09-25" version="0.28.2-6.1">
+    <implementation arch="Linux-x86_64" id="sha1new=000d1426b3ef92bbfb3c8655e9e324aa1c8a24a3" released="2009-09-25" stability="stable" version="0.28.2-6.1">
       <archive href="http://ftp.debian.org/debian/pool/main/n/neon27/libneon27-gnutls_0.28.2-6.1_amd64.deb" size="120762"/>
     </implementation>
   </group>

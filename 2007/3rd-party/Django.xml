@@ -13,7 +13,7 @@ the stringent requirements of the experienced Web developers who wrote it. It
 lets you build high-performing, elegant Web applications quickly.</description>
   <homepage>http://www.djangoproject.com/</homepage>
   <group license="OSI Approved :: BSD License (revised)">
-    <implementation id="sha1new=262c95b5a7cc34f525408b675106e4e4ae3494cc" released="2007-05-12" version="0.96">
+    <implementation id="sha1new=262c95b5a7cc34f525408b675106e4e4ae3494cc" released="2007-05-12" stability="stable" version="0.96">
     <archive extract="Django-0.96" href="http://www.djangoproject.com/download/0.96/tarball/" size="1748745" type="application/x-compressed-tar"/>
   </implementation>
     <requires interface="http://0install.net/2007/3rd-party/Django.xml">

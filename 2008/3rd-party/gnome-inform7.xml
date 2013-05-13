@@ -12,12 +12,12 @@ writing interactive fiction (also known as text adventures.)</description>
   <homepage>http://sourceforge.net/projects/gnome-inform7</homepage>
   <group main="usr/bin/gnome-inform7">
     <group arch="Linux-i486">
-      <implementation id="sha1new=6bcbf2e684b227711d7174b00d6348a0180a9a8e" released="2008-08-22" version="5">
+      <implementation id="sha1new=6bcbf2e684b227711d7174b00d6348a0180a9a8e" released="2008-08-22" stability="stable" version="5">
         <archive href="http://garr.dl.sourceforge.net/sourceforge/gnome-inform7/gnome-inform7_5T18_i386.deb" size="8626954" type="application/x-deb"/>
       </implementation>
     </group>
     <group arch="Linux-x86_64">
-      <implementation id="sha1new=45f0cc694ce7985798a43f84da0dee8d9c8d2e86" released="2008-05-26" version="5">
+      <implementation id="sha1new=45f0cc694ce7985798a43f84da0dee8d9c8d2e86" released="2008-05-26" stability="stable" version="5">
         <archive href="http://garr.dl.sourceforge.net/sourceforge/gnome-inform7/gnome-inform7_5T18_amd64.deb" size="8615456"/>
       </implementation>
     </group>

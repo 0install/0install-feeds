@@ -130,7 +130,7 @@ packagers.html.</description>
       <manifest-digest sha256new="PJ7XV7EUN3DNYDSLA67MJBCVVR4OFYOMFZWCZWNL7P2J7IZSSY4Q"/>
       <archive extract="0publish-0.23" href="http://downloads.sourceforge.net/project/zero-install/0publish/0.23/0publish-0.23.tar.bz2" size="25646"/>
     </implementation>
-      <implementation id="sha1new=078330f7f927f7c10a6d81cd913deb5903391ef2" released="2013-03-08" version="0.24">
+      <implementation id="sha1new=078330f7f927f7c10a6d81cd913deb5903391ef2" released="2013-03-08" stability="stable" version="0.24">
       <manifest-digest sha256new="H6C6UE3W6NBSIBATVESQ5YXSA4AKVVA7X3OCRXBEPZP24ET7R3IA"/>
       <archive extract="0publish-0.24" href="http://downloads.sourceforge.net/project/zero-install/0publish/0.24/0publish-0.24.tar.bz2" size="26530"/>
     </implementation>

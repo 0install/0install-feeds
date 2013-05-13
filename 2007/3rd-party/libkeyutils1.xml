@@ -12,10 +12,10 @@ This package provides a wrapper library for the key management facility system
 calls.</description>
   <package-implementation package="libkeyutils1"/>
   <group arch="Linux-i386">
-    <implementation id="sha1new=101115a6a764902d168c316323947528965b341d" released="2009-09-25" version="1.2-9">
+    <implementation id="sha1new=101115a6a764902d168c316323947528965b341d" released="2009-09-25" stability="stable" version="1.2-9">
       <archive href="http://ftp.debian.org/debian/pool/main/k/keyutils/libkeyutils1_1.2-9_i386.deb" size="5584"/>
     </implementation>
-    <implementation arch="Linux-x86_64" id="sha1new=504cc74c534cbc607499e5bc5908e8fab1c2a43a" released="2009-09-25" version="1.2-9">
+    <implementation arch="Linux-x86_64" id="sha1new=504cc74c534cbc607499e5bc5908e8fab1c2a43a" released="2009-09-25" stability="stable" version="1.2-9">
       <archive href="http://ftp.debian.org/debian/pool/main/k/keyutils/libkeyutils1_1.2-9_amd64.deb" size="5984"/>
     </implementation>
   </group>
