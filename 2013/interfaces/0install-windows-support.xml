@@ -22,4 +22,8 @@
       <archive extract="0install-windows-support-2.4" href="0install-windows-support-2.4.tar.bz2" size="11244"/>
     </implementation>
   </group>
+  <implementation arch="Windows-x86_64" id="sha1new=0241096d7e98a547ecb4dd8d59c23b9b8ad24694" license="OSI Approved :: GNU Lesser General Public License (LGPL)" released="2013-07-20" version="2.4">
+    <manifest-digest sha256new="24V3K4UF3SNFJI2QVF3A52PXQWG7UGTHT6OUYDHPDE665ETVCPBA"/>
+    <archive extract="0install-windows-support-windows-x86_64-2.4" href="0install-windows-support-windows-x86_64-2.4.tar.bz2" size="427500"/>
+  </implementation>
 </interface>
