@@ -9,6 +9,8 @@ scale and chord skills. Solfege - Smarten your ears!</description>
   <homepage>http://www.solfege.org</homepage>
   <category>Audio</category>
 
+  <replaced-by interface='http://www.solfege.org/zeroinstall/solfege.xml'/>
+
   <group main="bin/solfege">
     <implementation id="sha1new=e546b9e0f87150c7e97ebfad91b72a12a39745ce" released="2006-12-02" stability="stable" version="3.6.3">
       <archive href="http://easynews.dl.sourceforge.net/sourceforge/solfege/solfege-3.6.3.x86.package" size="1000930" start-offset="15060" type="application/x-bzip-compressed-tar"/>
