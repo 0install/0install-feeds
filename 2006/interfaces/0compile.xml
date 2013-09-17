@@ -419,7 +419,7 @@ For a full tutorial, see 0compile's homepage.</description>
           <version before="3"/>
         </runner>
       </command>
-      <implementation id="sha1new=b768f43eb9b0c28a8861d4bf5bcb902431063f04" released="2013-07-19" version="1.2">
+      <implementation id="sha1new=b768f43eb9b0c28a8861d4bf5bcb902431063f04" released="2013-07-19" stability="stable" version="1.2">
         <manifest-digest sha256new="DKAPFUZWO2WCRXHKJNNPQJX2OIM5RU6P3OCY7G54WU4MS6WO4PBQ"/>
         <archive extract="0compile-1.2" href="0compile-1.2.tar.bz2" size="36101"/>
       </implementation>
