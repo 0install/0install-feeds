@@ -182,7 +182,7 @@ can help you to create new releases easily.</description>
       <command name="run" path="0release">
         <runner interface="http://repo.roscidus.com/python/python"/>
       </command>
-      <implementation id="sha1new=fe5d960622a39bd4be2f78c9f4bc64fd90cc9492" license="OSI Approved :: GNU Lesser General Public License (LGPL)" released="2013-05-06" version="0.15">
+      <implementation id="sha1new=fe5d960622a39bd4be2f78c9f4bc64fd90cc9492" license="OSI Approved :: GNU Lesser General Public License (LGPL)" released="2013-05-06" stability="stable" version="0.15">
         <manifest-digest sha256new="ONLXPNQXHTD2W5ZEO52PGO5VM4V4BNQ4CWEUJ3N2IOEI644LZWMQ"/>
         <archive extract="0release-0.15" href="0release-0.15.tar.bz2" size="56746"/>
       </implementation>
