@@ -69,7 +69,7 @@ interfere with those provided by the distribution.
     </implementation>
   </group>
 
-  <group>
+  <group license="OSI Approved :: GNU Lesser General Public License (LGPL)">
     <command name="run" path="files/0install"/>
     <requires interface="http://repo.roscidus.com/security/gnupg">
       <executable-in-var name="ZEROINSTALL_GPG"/>
@@ -78,45 +78,29 @@ interfere with those provided by the distribution.
       <executable-in-var name="ZEROINSTALL_PYTHON"/>
     </requires>
     <requires interface="http://repo.roscidus.com/python/python-gobject" os="POSIX"/>
-    <implementation arch="Linux-x86_64" id="sha1new=034b781e3772109efc894a1ef7d3475b5fcc9d44" license="OSI Approved :: GNU Lesser General Public License (LGPL)" main="files/0install" released="2013-09-17" version="2.4-rc1">
+    <implementation arch="Linux-x86_64" id="sha1new=034b781e3772109efc894a1ef7d3475b5fcc9d44" main="files/0install" released="2013-09-17" version="2.4-rc1">
       <manifest-digest sha256new="MXT7VBBYGWINYW744QKH63HTE6TGPVDY2EPRO75MHFT32CDYOWFA"/>
       <archive extract="0install-linux-x86_64-2.4-rc1" href="0install-linux-x86_64-2.4-rc1.tar.bz2" size="1107894"/>
     </implementation>
-    <implementation arch="Linux-i486" id="sha1new=574c32de5113950a0afd8920704daeb4c4dbe90a" license="OSI Approved :: GNU Lesser General Public License (LGPL)" main="files/0install" released="2013-09-17" version="2.4-rc1">
+    <implementation arch="Linux-i486" id="sha1new=574c32de5113950a0afd8920704daeb4c4dbe90a" main="files/0install" released="2013-09-17" version="2.4-rc1">
       <manifest-digest sha256new="2M4BNTP6AG3JVKSUMFM56FAE3ED63O523COO2U6JWUNJTKQYM72Q"/>
       <archive extract="0install-linux-i486-2.4-rc1" href="0install-linux-i486-2.4-rc1.tar.bz2" size="914043"/>
     </implementation>
-    <implementation arch="Linux-x86_64" id="sha1new=82031d723834a8020ab08ed310f4bfba6c494702" license="OSI Approved :: GNU Lesser General Public License (LGPL)" main="files/0install" released="2013-09-23" version="2.4">
+    <implementation arch="Linux-x86_64" id="sha1new=82031d723834a8020ab08ed310f4bfba6c494702" main="files/0install" released="2013-09-23" version="2.4">
       <manifest-digest sha256new="MZNWI4YSYUJXT4LMGBSJTTCPZEATQDPSL3LVWUKA436IZCSTYTLA"/>
       <archive extract="0install-linux-x86_64-2.4" href="0install-linux-x86_64-2.4.tar.bz2" size="1108437"/>
     </implementation>
-    <implementation arch="Linux-i486" id="sha1new=f67dbeb27d36257e2af0e29e786f2f86ffaa8f56" license="OSI Approved :: GNU Lesser General Public License (LGPL)" main="files/0install" released="2013-09-23" version="2.4">
+    <implementation arch="Linux-i486" id="sha1new=f67dbeb27d36257e2af0e29e786f2f86ffaa8f56" main="files/0install" released="2013-09-23" version="2.4">
       <manifest-digest sha256new="S7NTYZ3GMGEW7VWGYDFX6GWFJSWQTCW6FOTUWT35DIM33B3HBXLQ"/>
       <archive extract="0install-linux-i486-2.4" href="0install-linux-i486-2.4.tar.bz2" size="912661"/>
     </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=be364aee8f7a0f95c4fdbfc85319f6681c060bb4" main="files/0install" released="2013-10-06" version="2.4.1">
+      <manifest-digest sha256new="IK7TCDX6O3NFH4DN6QWHJGB3UCAKFSXR5AQLGN2SVLAPGT2OSG4Q"/>
+      <archive extract="0install-linux-x86_64-2.4.1" href="0install-linux-x86_64-2.4.1.tar.bz2" size="1110172"/>
+    </implementation>
+    <implementation arch="Linux-i486" id="sha1new=a802b47b29e9c8458ffd01ded0d13fbe1e444373" main="files/0install" released="2013-10-06" version="2.4.1">
+      <manifest-digest sha256new="C6XNP4CWED26KEXKHMSO3Z7BHGQTVSQQ6TCKMDPDAPZ6QRMBITJA"/>
+      <archive extract="0install-linux-i486-2.4.1" href="0install-linux-i486-2.4.1.tar.bz2" size="913282"/>
+    </implementation>
   </group>
-  <implementation arch="Linux-x86_64" id="sha1new=be364aee8f7a0f95c4fdbfc85319f6681c060bb4" license="OSI Approved :: GNU Lesser General Public License (LGPL)" main="files/0install" released="2013-10-06" version="2.4.1">
-    <command name="run" path="files/0install"/>
-    <requires interface="http://repo.roscidus.com/security/gnupg">
-      <executable-in-var name="ZEROINSTALL_GPG"/>
-    </requires>
-    <requires interface="http://repo.roscidus.com/python/python" version="2.6..!3 | 3.2.2..">
-      <executable-in-var name="ZEROINSTALL_PYTHON"/>
-    </requires>
-    <requires interface="http://repo.roscidus.com/python/python-gobject" os="POSIX"/>
-    <manifest-digest sha256new="IK7TCDX6O3NFH4DN6QWHJGB3UCAKFSXR5AQLGN2SVLAPGT2OSG4Q"/>
-    <archive extract="0install-linux-x86_64-2.4.1" href="0install-linux-x86_64-2.4.1.tar.bz2" size="1110172"/>
-  </implementation>
-  <implementation arch="Linux-i486" id="sha1new=a802b47b29e9c8458ffd01ded0d13fbe1e444373" license="OSI Approved :: GNU Lesser General Public License (LGPL)" main="files/0install" released="2013-10-06" version="2.4.1">
-    <command name="run" path="files/0install"/>
-    <requires interface="http://repo.roscidus.com/security/gnupg">
-      <executable-in-var name="ZEROINSTALL_GPG"/>
-    </requires>
-    <requires interface="http://repo.roscidus.com/python/python" version="2.6..!3 | 3.2.2..">
-      <executable-in-var name="ZEROINSTALL_PYTHON"/>
-    </requires>
-    <requires interface="http://repo.roscidus.com/python/python-gobject" os="POSIX"/>
-    <manifest-digest sha256new="C6XNP4CWED26KEXKHMSO3Z7BHGQTVSQQ6TCKMDPDAPZ6QRMBITJA"/>
-    <archive extract="0install-linux-i486-2.4.1" href="0install-linux-i486-2.4.1.tar.bz2" size="913282"/>
-  </implementation>
 </interface>
