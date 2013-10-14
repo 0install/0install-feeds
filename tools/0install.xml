@@ -106,29 +106,13 @@ interfere with those provided by the distribution.
       <manifest-digest sha256new="C6XNP4CWED26KEXKHMSO3Z7BHGQTVSQQ6TCKMDPDAPZ6QRMBITJA"/>
       <archive extract="0install-linux-i486-2.4.1" href="0install-linux-i486-2.4.1.tar.bz2" size="913282"/>
     </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=9df4e5cd556ddd5b57f35d22a39ee7b16108dcee" license="OSI Approved :: GNU Lesser General Public License (LGPL)" main="files/0install" released="2013-10-14" version="2.5-rc1">
+      <manifest-digest sha256new="DPS4T5DKISPVADRD4HEATLFBVZSXHCF5ICLS5MDBWLBJJGXQAUZQ"/>
+      <archive extract="0install-linux-x86_64-2.5-rc1" href="0install-linux-x86_64-2.5-rc1.tar.bz2" size="1263862"/>
+    </implementation>
+    <implementation arch="Linux-i486" id="sha1new=333114c2b3660417d5e991c5d6063101b5cc018b" license="OSI Approved :: GNU Lesser General Public License (LGPL)" main="files/0install" released="2013-10-14" version="2.5-rc1">
+      <manifest-digest sha256new="J2L7WR3IHHIP4NRM5E5UZL63AQHDB5UNMIXCMSALTWHPJUY5IW4A"/>
+      <archive extract="0install-linux-i486-2.5-rc1" href="0install-linux-i486-2.5-rc1.tar.bz2" size="1051147"/>
+    </implementation>
   </group>
-  <implementation arch="Linux-x86_64" id="sha1new=9df4e5cd556ddd5b57f35d22a39ee7b16108dcee" license="OSI Approved :: GNU Lesser General Public License (LGPL)" main="files/0install" released="2013-10-14" version="2.5-rc1">
-    <command name="run" path="files/0install"/>
-    <requires interface="http://repo.roscidus.com/security/gnupg">
-      <executable-in-var name="ZEROINSTALL_GPG"/>
-    </requires>
-    <requires interface="http://repo.roscidus.com/python/python" version="2.6..!3 | 3.2.2..">
-      <executable-in-var name="ZEROINSTALL_PYTHON"/>
-    </requires>
-    <requires interface="http://repo.roscidus.com/python/python-gobject" os="POSIX"/>
-    <manifest-digest sha256new="DPS4T5DKISPVADRD4HEATLFBVZSXHCF5ICLS5MDBWLBJJGXQAUZQ"/>
-    <archive extract="0install-linux-x86_64-2.5-rc1" href="0install-linux-x86_64-2.5-rc1.tar.bz2" size="1263862"/>
-  </implementation>
-  <implementation arch="Linux-i486" id="sha1new=333114c2b3660417d5e991c5d6063101b5cc018b" license="OSI Approved :: GNU Lesser General Public License (LGPL)" main="files/0install" released="2013-10-14" version="2.5-rc1">
-    <command name="run" path="files/0install"/>
-    <requires interface="http://repo.roscidus.com/security/gnupg">
-      <executable-in-var name="ZEROINSTALL_GPG"/>
-    </requires>
-    <requires interface="http://repo.roscidus.com/python/python" version="2.6..!3 | 3.2.2..">
-      <executable-in-var name="ZEROINSTALL_PYTHON"/>
-    </requires>
-    <requires interface="http://repo.roscidus.com/python/python-gobject" os="POSIX"/>
-    <manifest-digest sha256new="J2L7WR3IHHIP4NRM5E5UZL63AQHDB5UNMIXCMSALTWHPJUY5IW4A"/>
-    <archive extract="0install-linux-i486-2.5-rc1" href="0install-linux-i486-2.5-rc1.tar.bz2" size="1051147"/>
-  </implementation>
 </interface>
