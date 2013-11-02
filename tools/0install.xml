@@ -75,6 +75,10 @@ interfere with those provided by the distribution.
       <manifest-digest sha256new="EKHL6O3K226KMHIQIRCGW4XWCYADVKIIRLLKNZVRIF3DSFXGQB2A"/>
       <archive extract="0install-2.5" href="0install-2.5.tar.bz2" size="539001"/>
     </implementation>
+    <implementation id="sha1new=79229bf76d082f6fd730ff1d5edf6aa4d630817a" released="2013-11-02" version="2.5.1">
+      <manifest-digest sha256new="XKBANAHTUKMO2SWPGXEXHJCOEQX77HUXD6P2X2Q3TGPURSUR7IVA"/>
+      <archive extract="0install-2.5.1" href="0install-2.5.1.tar.bz2" size="538687"/>
+    </implementation>
   </group>
 
   <group license="OSI Approved :: GNU Lesser General Public License (LGPL)" main="files/0install">
@@ -125,6 +129,14 @@ interfere with those provided by the distribution.
     <implementation arch="Linux-i486" id="sha1new=fcc381d29ffaefd8a5a6f9595754b326c691ebfa" released="2013-10-30" version="2.5">
       <manifest-digest sha256new="7VTXLH3A2WWJZP6MXT2JFA2ZSLZAELCN4GU2VKBKCITLRBJAQDKQ"/>
       <archive extract="0install-linux-i486-2.5" href="0install-linux-i486-2.5.tar.bz2" size="1051280"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=97294c5462a8b29bed0e04a72e65abffd48a55ab" released="2013-11-02" version="2.5.1">
+      <manifest-digest sha256new="WNGUYDDHYDKOOCMSTWWOUWMREI5E3B6HW7UJ7MXCDGDCCTLZTG7A"/>
+      <archive extract="0install-linux-x86_64-2.5.1" href="0install-linux-x86_64-2.5.1.tar.bz2" size="1263912"/>
+    </implementation>
+    <implementation arch="Linux-i486" id="sha1new=b6bfc28081d714e6eadce57fc7e49ba115c738e9" released="2013-11-02" version="2.5.1">
+      <manifest-digest sha256new="UHEZTG55A2JJCO6E56GS44YZJRUXIPTAGIOHWFJEZ6KFU4DYY4EA"/>
+      <archive extract="0install-linux-i486-2.5.1" href="0install-linux-i486-2.5.1.tar.bz2" size="1050653"/>
     </implementation>
   </group>
 </interface>
