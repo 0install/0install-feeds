@@ -105,6 +105,10 @@ interfere with those provided by the distribution.
         <manifest-digest sha256new="M4KMINYW7QPXQHIELLF2QNQWGTLDQ5KG6KL6E3YWKKXX2VZ3DFAQ"/>
         <archive extract="0install-2.6-rc2" href="0install-2.6-rc2.tar.bz2" size="484777"/>
       </implementation>
+      <implementation id="sha1new=fb7749d8f51a5574ae3af29ff583b958654a0ede" released="2014-01-09" version="2.6-rc3">
+        <manifest-digest sha256new="IKGMY6Z4R7DLOAFR34VALE662RFIEL2772RXBF4I5JEGJGVVWRAA"/>
+        <archive extract="0install-2.6-rc3" href="0install-2.6-rc3.tar.bz2" size="484151"/>
+      </implementation>
     </group>
   </group>
 
@@ -186,6 +190,14 @@ interfere with those provided by the distribution.
     <implementation arch="Linux-i486" id="sha1new=e9c8639a8804c5c4b853e9aa41cda089a23f37a1" license="OSI Approved :: GNU Lesser General Public License (LGPL)" released="2014-01-06" version="2.6-rc2">
       <manifest-digest sha256new="7E53AOWLFD3AH5KEWJWSI45I4C47NHZ553TM4LQKLV76F2ZXPIUQ"/>
       <archive extract="0install-linux-i486-2.6-rc2" href="0install-linux-i486-2.6-rc2.tar.bz2" size="3325423"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=493df97360fe8472e598c9eaa7c26e7c36b9306b" license="OSI Approved :: GNU Lesser General Public License (LGPL)" released="2014-01-09" version="2.6-rc3">
+      <manifest-digest sha256new="XBH32RLRWOXKRBDE7RA4L357CHREDW4FHU6BMZWB3F465S3RQQOA"/>
+      <archive extract="0install-linux-x86_64-2.6-rc3" href="0install-linux-x86_64-2.6-rc3.tar.bz2" size="3543875"/>
+    </implementation>
+    <implementation arch="Linux-i486" id="sha1new=65e0f1a01c03aa9432d1ff50987ee2fa40118184" license="OSI Approved :: GNU Lesser General Public License (LGPL)" released="2014-01-09" version="2.6-rc3">
+      <manifest-digest sha256new="OQWHQAGLPMORJAOW6M4FM4BBH4PUHRSDS6QSHYQTRNITUCEHFFVQ"/>
+      <archive extract="0install-linux-i486-2.6-rc3" href="0install-linux-i486-2.6-rc3.tar.bz2" size="3325240"/>
     </implementation>
   </group>
 </interface>
