@@ -231,5 +231,9 @@ interfere with those provided by the distribution.
       <manifest-digest sha256new="DN45HGK2P52AW5WKFEKNTAUG76ON5LDC2XNIHGLS2SBK2JDRDSTQ"/>
       <archive extract="0install-linux-armv6l-2.6" href="0install-linux-armv6l-2.6.tar.bz2" size="3594277"/>
     </implementation>
+    <implementation arch="Darwin-x86_64" id="sha1new=a2b50b9420504953fff01c75593368fae96f2805" released="2014-01-19" version="2.6">
+      <manifest-digest sha256new="YRAXTQB2DMKOSIG3NJR5QPS34QVSTJMTWZYQGVCYRGSVKKX5UEQQ"/>
+      <archive extract="0install-darwin-x86_64-2.6" href="https://downloads.sourceforge.net/project/zero-install/0install/2.6/0install-darwin-x86_64-2.6.tar.bz2" size="2774516"/>
+    </implementation>
   </group>
 </interface>
