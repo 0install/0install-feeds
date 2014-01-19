@@ -113,6 +113,10 @@ interfere with those provided by the distribution.
         <manifest-digest sha256new="QALMYUUU7ZBHQ2SZRUIUPBIPDZV45IGE6JOWXWBAVDTMSQUVNYDQ"/>
         <archive extract="0install-2.6-rc4" href="0install-2.6-rc4.tar.bz2" size="484926"/>
       </implementation>
+      <implementation id="sha1new=88f0c7745fb44707fc268e3b980bc29084e299d7" released="2014-01-19" version="2.6">
+        <manifest-digest sha256new="PULRJETDYOEZM5X62EIOQKSBMNYTR5RNOWIL4VOYWDCA7RW773PA"/>
+        <archive extract="0install-2.6" href="0install-2.6.tar.bz2" size="484653"/>
+      </implementation>
     </group>
   </group>
 
@@ -174,7 +178,7 @@ interfere with those provided by the distribution.
       <archive extract="0install-linux-i486-2.5.1" href="0install-linux-i486-2.5.1.tar.bz2" size="1050653"/>
     </implementation>
   </group>
-  <group main="files/0install" license="OSI Approved :: GNU Lesser General Public License (LGPL)">
+  <group license="OSI Approved :: GNU Lesser General Public License (LGPL)" main="files/0install">
     <requires interface="http://repo.roscidus.com/security/gnupg">
       <executable-in-var name="ZEROINSTALL_GPG"/>
     </requires>
@@ -191,29 +195,41 @@ interfere with those provided by the distribution.
       <manifest-digest sha256new="7KPHCS36EE3TRNOUBLXLV3NXPOW3WITJJMJZ6A45XC2CYMSRGRNQ"/>
       <archive extract="0install-linux-x86_64-2.6-rc2" href="0install-linux-x86_64-2.6-rc2.tar.bz2" size="3542789"/>
     </implementation>
-    <implementation arch="Linux-i486" id="sha1new=e9c8639a8804c5c4b853e9aa41cda089a23f37a1"  released="2014-01-06" version="2.6-rc2">
+    <implementation arch="Linux-i486" id="sha1new=e9c8639a8804c5c4b853e9aa41cda089a23f37a1" released="2014-01-06" version="2.6-rc2">
       <manifest-digest sha256new="7E53AOWLFD3AH5KEWJWSI45I4C47NHZ553TM4LQKLV76F2ZXPIUQ"/>
       <archive extract="0install-linux-i486-2.6-rc2" href="0install-linux-i486-2.6-rc2.tar.bz2" size="3325423"/>
     </implementation>
-    <implementation arch="Linux-x86_64" id="sha1new=493df97360fe8472e598c9eaa7c26e7c36b9306b"  released="2014-01-09" version="2.6-rc3">
+    <implementation arch="Linux-x86_64" id="sha1new=493df97360fe8472e598c9eaa7c26e7c36b9306b" released="2014-01-09" version="2.6-rc3">
       <manifest-digest sha256new="XBH32RLRWOXKRBDE7RA4L357CHREDW4FHU6BMZWB3F465S3RQQOA"/>
       <archive extract="0install-linux-x86_64-2.6-rc3" href="0install-linux-x86_64-2.6-rc3.tar.bz2" size="3543875"/>
     </implementation>
-    <implementation arch="Linux-i486" id="sha1new=65e0f1a01c03aa9432d1ff50987ee2fa40118184"  released="2014-01-09" version="2.6-rc3">
+    <implementation arch="Linux-i486" id="sha1new=65e0f1a01c03aa9432d1ff50987ee2fa40118184" released="2014-01-09" version="2.6-rc3">
       <manifest-digest sha256new="OQWHQAGLPMORJAOW6M4FM4BBH4PUHRSDS6QSHYQTRNITUCEHFFVQ"/>
       <archive extract="0install-linux-i486-2.6-rc3" href="0install-linux-i486-2.6-rc3.tar.bz2" size="3325240"/>
     </implementation>
-    <implementation arch="Linux-x86_64" id="sha1new=2cbb211d7978b5df662efdec1fc3e8551dcdad78"  released="2014-01-16" version="2.6-rc4">
+    <implementation arch="Linux-x86_64" id="sha1new=2cbb211d7978b5df662efdec1fc3e8551dcdad78" released="2014-01-16" version="2.6-rc4">
       <manifest-digest sha256new="CF4QROYUUMPEDY5FJCRFQ6SEFUALQAHHKJA53BKGJIU56TRXANAQ"/>
       <archive extract="0install-linux-x86_64-2.6-rc4" href="0install-linux-x86_64-2.6-rc4.tar.bz2" size="3553248"/>
     </implementation>
-    <implementation arch="Linux-i486" id="sha1new=6ff0112cf872d532425f4210961f29a880a4f010"  released="2014-01-16" version="2.6-rc4">
+    <implementation arch="Linux-i486" id="sha1new=6ff0112cf872d532425f4210961f29a880a4f010" released="2014-01-16" version="2.6-rc4">
       <manifest-digest sha256new="OSWR5GBG3QZCNOVVAHHVNHNM65NFBVYCMOQLB3YHKGHDHLYBYYOA"/>
       <archive extract="0install-linux-i486-2.6-rc4" href="0install-linux-i486-2.6-rc4.tar.bz2" size="3332014"/>
     </implementation>
     <implementation arch="Darwin-x86_64" id="sha1new=f5bc16b44c37b65f08a1665cf4ffe3d045596f3b" released="2014-01-16" version="2.6-rc4">
       <manifest-digest sha256new="F2QVQSFLOJRMN5EHQ2TUYTMQTNH3Y6UI72LAJKFV5DBG2GEBY3RQ"/>
       <archive extract="0install-darwin-x86_64-2.6-rc4" href="https://downloads.sourceforge.net/project/zero-install/0install/2.6-rc4/0install-darwin-x86_64-2.6-rc4.tar.bz2" size="2773072"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=954e72d47870e761875fa7e46551df54def6b1fd" released="2014-01-19" version="2.6">
+      <manifest-digest sha256new="OVUCKLIH4A4F5W7XBIP2D5GXCXLDRPL6OD6DUJU4GFVST6MKESWQ"/>
+      <archive extract="0install-linux-x86_64-2.6" href="0install-linux-x86_64-2.6.tar.bz2" size="3552442"/>
+    </implementation>
+    <implementation arch="Linux-i486" id="sha1new=7d2779eb1f2202c58b6cf802cb866f650a8511c3" released="2014-01-19" version="2.6">
+      <manifest-digest sha256new="WDSFLMWOKMZ5QA67RFNXVBQ42AXQ6ZQ6LTXE6BFQXLRO5ZNNZAUA"/>
+      <archive extract="0install-linux-i486-2.6" href="0install-linux-i486-2.6.tar.bz2" size="3331632"/>
+    </implementation>
+    <implementation arch="Linux-armv6l" id="sha1new=4fd3782e34c6355ecd01b9f81136c6700de89b1d" released="2014-01-19" version="2.6">
+      <manifest-digest sha256new="DN45HGK2P52AW5WKFEKNTAUG76ON5LDC2XNIHGLS2SBK2JDRDSTQ"/>
+      <archive extract="0install-linux-armv6l-2.6" href="0install-linux-armv6l-2.6.tar.bz2" size="3594277"/>
     </implementation>
   </group>
 </interface>
