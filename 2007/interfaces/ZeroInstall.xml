@@ -17,8 +17,6 @@ interfere with those provided by the distribution.
   <icon href="http://0install.net/feed_icons/ZeroInstall.png" type="image/png"/>
   <category>System</category>
 
-  <package-implementation main="/usr/bin/0launch" package="zeroinstall-injector"/>
-
   <release:management xmlns:release="http://zero-install.sourceforge.net/2007/namespaces/0release"><!-- Update the copy of the version number -->
     <release:action phase="commit-release">sed -i &quot;s/^version = '.*'$/version = '$RELEASE_VERSION'/&quot; zeroinstall/__init__.py</release:action>
     <release:action phase="commit-release">sed -i &quot;s/^version = '.*'$/version = '$RELEASE_VERSION'/&quot; zeroinstall/0launch-gui/gui.py</release:action>
