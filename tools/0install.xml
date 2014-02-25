@@ -267,5 +267,9 @@ interfere with those provided by the distribution.
       <manifest-digest sha256new="JJSSLUKJ4ZVMFM57MEAMBDMUSOPNXY27AUUWJEZKFTEQHLGMBPDA"/>
       <archive extract="0install-linux-armv6l-2.6.2" href="0install-linux-armv6l-2.6.2.tar.bz2" size="3595285"/>
     </implementation>
+    <implementation arch="Darwin-x86_64" id="sha1new=240dbec79f907fd736caa637ef7bf62f6ea3623b" released="2014-02-25" version="2.6.2">
+      <manifest-digest sha256new="AJAU3QVO54NJKNRO3AQTJIKDHA5UC7YW7MDAJVOXJQHBJL7CTBLA"/>
+      <archive extract="0install-darwin-x86_64-2.6.2" href="https://downloads.sourceforge.net/project/zero-install/0install/2.6.2/0install-darwin-x86_64-2.6.2.tar.bz2" size="2773254"/>
+    </implementation>
   </group>
 </interface>
