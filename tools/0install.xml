@@ -287,5 +287,9 @@ interfere with those provided by the distribution.
       <manifest-digest sha256new="A56ZDDGTTEJIYLZ47PCAJBWHUJU6C32AE62I2SIQPG7ZMDZHIXCQ"/>
       <archive extract="0install-linux-armv6l-2.7" href="0install-linux-armv6l-2.7.tar.bz2" size="3616393"/>
     </implementation>
+    <implementation arch="Darwin-x86_64" id="sha1new=0b29e219b50f596fded61274abee8c9463ec0718" released="2014-05-25" version="2.7">
+      <manifest-digest sha256new="SNQ3PKLOCD7UTL32DK5T64XJ4XN4AHACMAKYMGO6OEBO2OUM6XZQ"/>
+      <archive extract="0install-darwin-x86_64-2.7" href="https://downloads.sourceforge.net/project/zero-install/0install/2.7/0install-darwin-x86_64-2.7.tar.bz2" size="2790170"/>
+    </implementation>
   </group>
 </interface>
