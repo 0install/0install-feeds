@@ -1,5 +1,4 @@
 <?xml version="1.0" ?>
-<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
 <interface uri="http://0install.net/tools/0template.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>0template</name>
   <summary>utility to make creating feeds easier</summary>
@@ -10,8 +9,7 @@
   </description>
   <homepage>http://0install.net/0template.html</homepage>
 
-  <release:management xmlns:release="http://zero-install.sourceforge.net/2007/namespaces/0release">
-    <!-- Update the copy of the version number in the code -->
+  <release:management xmlns:release="http://zero-install.sourceforge.net/2007/namespaces/0release"><!-- Update the copy of the version number in the code -->
     <release:action phase="commit-release">sed -i &quot;s/^version = '.*'$/version = '$RELEASE_VERSION'/&quot; 0template.py</release:action>
   </release:management>
 
@@ -40,4 +38,27 @@
     </implementation>
   </group>
 
+  <group>
+    <requires interface="http://repo.roscidus.com/python/python">
+      <version not-before="2.7"/>
+    </requires>
+    <requires interface="http://0install.net/2007/interfaces/ZeroInstall.xml">
+      <environment insert="" mode="prepend" name="PYTHONPATH"/>
+      <version not-before="2.2-post"/>
+    </requires>
+    <requires interface="http://0install.de/feeds/ZeroInstall_Tools.xml" os="Windows">
+      <executable-in-var command="0publish" name="0TEMPLATE_EXTERNAL_TOOL"/>
+    </requires>
+    <command name="test" path="tests/test0template.py">
+      <runner interface="http://repo.roscidus.com/python/python"/>
+      <executable-in-path name="0template"/>
+    </command>
+    <command name="run" path="0template.py">
+      <runner interface="http://repo.roscidus.com/python/python"/>
+    </command>
+    <implementation id="sha1new=f88e42082640316608fc28be303521fc0692573e" license="OSI Approved :: GNU Lesser General Public License (LGPL)" released="2014-09-02" version="0.2">
+      <manifest-digest sha256new="ERLRSPYBXSOGULSDGW56DUSFZ2DELXOG7JSTAZP6W2UX3NYRQOXQ"/>
+      <archive extract="0template-0.2" href="0template-0.2.tar.bz2" size="15294"/>
+    </implementation>
+  </group>
 </interface>
