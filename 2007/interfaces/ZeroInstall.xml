@@ -312,6 +312,10 @@ interfere with those provided by the distribution.
         <manifest-digest sha256new="DQ5LNKJ5NVYFL5UQWV7S2NLHWI4TUXDZCZZI65L5YKHEHNVNVSLA"/>
         <archive extract="0install-2.3.3" href="0install-2.3.3.tar.bz2" size="446962"/>
       </implementation>
+      <implementation id="sha1new=1ce9157b93d95eb82d347767f5d6e8087b5d1372" released="2014-11-16" version="2.3.4">
+        <manifest-digest sha256new="4NHC5U3EHX4X6DXUOADZFZCQK7546M3T7PQ4NWBRQ2ZU2PPSJWBA"/>
+        <archive extract="0install-2.3.4" href="0install-2.3.4.tar.bz2" size="466018"/>
+      </implementation>
     </group>
   </group>
 
