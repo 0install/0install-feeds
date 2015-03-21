@@ -67,7 +67,7 @@
         <runner interface="http://repo.roscidus.com/python/python"/>
         <executable-in-path name="0repo"/>
       </command>
-      <implementation id="sha1new=3b8029c925e7e9d1543ec252065ee6f337e7987d" released="2014-01-20" version="0.3">
+      <implementation id="sha1new=3b8029c925e7e9d1543ec252065ee6f337e7987d" released="2014-01-20" stability="stable" version="0.3">
         <manifest-digest sha256new="X6EYKYV4E5GAXHMNI47Y46BYSCUUV5GEE4BR4MZFCACU4BN3U6OA"/>
         <archive extract="0repo-0.3" href="0repo-0.3.tar.bz2" size="54945"/>
       </implementation>

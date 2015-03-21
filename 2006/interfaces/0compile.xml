@@ -427,7 +427,7 @@ For a full tutorial, see 0compile's homepage.</description>
         <manifest-digest sha256new="V3EKZQ5AWLF64GJ6QZ5AQLZEWV7ZWONFZ6JNC4DE2RUIBXEBJ2CQ"/>
         <archive extract="0compile-1.3" href="0compile-1.3.tar.bz2" size="36280"/>
       </implementation>
-      <implementation id="sha1new=f1034557f5d41c09bbffdc1bffee69dcff9c7a14" license="OSI Approved :: GNU Lesser General Public License (LGPL)" released="2014-11-03" version="1.4">
+      <implementation id="sha1new=f1034557f5d41c09bbffdc1bffee69dcff9c7a14" license="OSI Approved :: GNU Lesser General Public License (LGPL)" released="2014-11-03" stability="stable" version="1.4">
         <manifest-digest sha256new="DRI2B34BA24I5WP4NJCHZ6F2RU6ZDGRULN4WEUZNLYX6RW6BAN2A"/>
         <archive extract="0compile-1.4" href="0compile-1.4.tar.bz2" size="37139"/>
       </implementation>

@@ -129,7 +129,7 @@ interfere with those provided by the distribution.
         <manifest-digest sha256new="A5TRWZOHORTCMDACRYONPYBWIBXRGAJKB5SI5NB3SJIPBYP3AWWQ"/>
         <archive extract="0install-2.7" href="0install-2.7.tar.bz2" size="480343"/>
       </implementation>
-      <implementation id="sha1new=ededfccfce578e37af5332e62dc95ee06a28ec24" released="2014-11-08" version="2.8">
+      <implementation id="sha1new=ededfccfce578e37af5332e62dc95ee06a28ec24" released="2014-11-08" stability="stable" version="2.8">
         <manifest-digest sha256new="2Z6N4XDLETY2LYT3CPIEUNAC3TGNAPADAUD4R2CQCAVH4G7Z2AJA"/>
         <archive extract="0install-2.8" href="0install-2.8.tar.bz2" size="492059"/>
       </implementation>
@@ -295,24 +295,24 @@ interfere with those provided by the distribution.
       <manifest-digest sha256new="SNQ3PKLOCD7UTL32DK5T64XJ4XN4AHACMAKYMGO6OEBO2OUM6XZQ"/>
       <archive extract="0install-darwin-x86_64-2.7" href="https://downloads.sourceforge.net/project/zero-install/0install/2.7/0install-darwin-x86_64-2.7.tar.bz2" size="2790170"/>
     </implementation>
-    <implementation arch="Linux-i486" id="sha1new=ee473c6d60a54c250f49d131d3fbb980b43eaaa6" released="2014-11-08" version="2.8">
+    <implementation arch="Linux-i486" id="sha1new=ee473c6d60a54c250f49d131d3fbb980b43eaaa6" released="2014-11-08" stability="stable" version="2.8">
       <manifest-digest sha256new="OEXPZFDITRGZPGYVXNOLCKBPZJ454ONOTR7VW4FURQCZF22XGT5Q"/>
       <archive extract="0install-linux-i486-2.8" href="0install-linux-i486-2.8.tar.bz2" size="3409019"/>
     </implementation>
-    <implementation arch="Linux-x86_64" id="sha1new=032530e1504921131a93092e881bba705a5e0fd8" released="2014-11-08" version="2.8">
+    <implementation arch="Linux-x86_64" id="sha1new=032530e1504921131a93092e881bba705a5e0fd8" released="2014-11-08" stability="stable" version="2.8">
       <manifest-digest sha256new="YEPNC3CZ7CVC6ZJNS3PALMWAOKPHLKZP65KLLNICQ5HYFRDOKTNQ"/>
       <archive extract="0install-linux-x86_64-2.8" href="0install-linux-x86_64-2.8.tar.bz2" size="3688843"/>
     </implementation>
-    <implementation arch="Linux-armv6l" id="sha1new=3184260873fc5a33a297ca92d6b7f411a14dec99" released="2014-11-08" version="2.8">
+    <implementation arch="Linux-armv6l" id="sha1new=3184260873fc5a33a297ca92d6b7f411a14dec99" released="2014-11-08" stability="stable" version="2.8">
       <manifest-digest sha256new="U7PQL5RQYZ4EBOIGWQXMBNAKKDIIQZYCCOLAVGA5NOWGCI4S4KKA"/>
       <archive extract="0install-linux-armv6l-2.8" href="0install-linux-armv6l-2.8.tar.bz2" size="3644230"/>
     </implementation>
-    <implementation arch="Linux-armv7l" id="armv7-2.8" released="2014-11-11" version="2.8">
+    <implementation arch="Linux-armv7l" id="armv7-2.8" released="2014-11-11" stability="stable" version="2.8">
       <!-- (older 0install versions don't know that ARMv7 is backwards compatible) -->
       <manifest-digest sha256new="U7PQL5RQYZ4EBOIGWQXMBNAKKDIIQZYCCOLAVGA5NOWGCI4S4KKA"/>
       <archive extract="0install-linux-armv6l-2.8" href="0install-linux-armv6l-2.8.tar.bz2" size="3644230"/>
     </implementation>
-    <implementation arch="Darwin-x86_64" id="sha1new=da2eaeb3d6ee0cbc78d70b3ddac342a002a003fc" released="2014-11-09" version="2.8">
+    <implementation arch="Darwin-x86_64" id="sha1new=da2eaeb3d6ee0cbc78d70b3ddac342a002a003fc" released="2014-11-09" stability="stable" version="2.8">
       <manifest-digest sha256new="MLCIHDFMLCKI23DDSP5PG6EZR6Y5A5LLOLKJH6C2QE4ONYH6Q2GQ"/>
       <archive extract="0install-darwin-x86_64-2.8" href="https://downloads.sourceforge.net/project/zero-install/0install/2.8/0install-darwin-x86_64-2.8.tar.bz2" size="2714176"/>
     </implementation>
