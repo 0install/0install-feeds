@@ -75,7 +75,7 @@ Run this on all your feeds from time-to-time to make sure they still work.</desc
           <version before="3"/>
         </runner>
       </command>
-      <implementation id="sha1new=b6774ab624a628e7d18c3c9218587db6c9112262" released="2015-05-03" version="0.9">
+      <implementation id="sha1new=b6774ab624a628e7d18c3c9218587db6c9112262" released="2015-05-03" stability="stable" version="0.9">
         <manifest-digest sha256new="TGEZYDFL3HZBTFMTM4LVDL4SOLYTORIYAAIIVQXUHYMLYOUL44YQ"/>
         <archive extract="feedlint-0.9" href="feedlint-0.9.tar.bz2" size="11770"/>
       </implementation>
