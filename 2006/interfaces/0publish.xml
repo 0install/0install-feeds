@@ -18,7 +18,7 @@ packagers.html.</description>
 
   <needs-terminal/>
 
-  <group main="0publish">
+  <group main="0publish" license="OSI Approved :: GNU Lesser General Public License (LGPL)">
     <implementation id="sha1=eccc7bb963db26a025feaf6f2642b36edd08d78f" released="2006-02-25" stability="stable" version="0.1">
       <archive extract="0publish-0.1" href="http://downloads.sourceforge.net/project/zero-install/0publish/0.1/0publish-0.1.tar.bz2" size="15397" type="application/x-bzip-compressed-tar"/>
       <manifest-digest sha1new="eccc7bb963db26a025feaf6f2642b36edd08d78f"/>
@@ -137,7 +137,7 @@ packagers.html.</description>
         <requires interface="http://repo.roscidus.com/security/gnupg">
           <environment insert="." name="PATH"/>
         </requires>
-        <implementation id="sha1new=bc06f0a2023fba486929e28dfbbfe42d2a43d4b1" license="OSI Approved :: GNU Lesser General Public License (LGPL)" released="2015-07-01" version="0.25">
+        <implementation id="sha1new=bc06f0a2023fba486929e28dfbbfe42d2a43d4b1" released="2015-07-01" version="0.25">
           <manifest-digest sha256new="AK4BBYGWE3AIITVH3POX2BMQLK4BLDE2ZUOAFAGC5NBRHSZ2MKMA"/>
           <archive extract="0publish-0.25" href="0publish-0.25.tar.bz2" size="26799"/>
         </implementation>
