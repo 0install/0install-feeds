@@ -71,6 +71,15 @@
         <manifest-digest sha256new="X6EYKYV4E5GAXHMNI47Y46BYSCUUV5GEE4BR4MZFCACU4BN3U6OA"/>
         <archive extract="0repo-0.3" href="0repo-0.3.tar.bz2" size="54945"/>
       </implementation>
+      <group>
+        <requires interface="http://repo.roscidus.com/git/core">
+          <environment insert="." name="PATH"/>
+        </requires>
+        <implementation id="sha1new=a1f0d2f4759ff228559568ea124427c4c75574eb" released="2015-07-11" version="0.4">
+          <manifest-digest sha256new="WPNAAW4FQJUM2NMWUYLUJBKEC2WMYXT4A5V753G2YFTSPNWQQNDQ"/>
+          <archive extract="0repo-0.4" href="0repo-0.4.tar.bz2" size="55279"/>
+        </implementation>
+      </group>
     </group>
   </group>
 </interface>
