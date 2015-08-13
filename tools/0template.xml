@@ -60,5 +60,9 @@
       <manifest-digest sha256new="ERLRSPYBXSOGULSDGW56DUSFZ2DELXOG7JSTAZP6W2UX3NYRQOXQ"/>
       <archive extract="0template-0.2" href="0template-0.2.tar.bz2" size="15294"/>
     </implementation>
+    <implementation id="sha1new=3c1cf27d0c25a878cda5a47faed64c8fe5b07dc8" license="OSI Approved :: GNU Lesser General Public License (LGPL)" released="2015-08-13" version="0.3">
+      <manifest-digest sha256new="YMMDCPWXMW3XTYDX6BIFXSBMZ5WTQV6CIKEZ3QVQ4EDV6NJ4N36A"/>
+      <archive extract="0template-0.3" href="0template-0.3.tar.bz2" size="15513"/>
+    </implementation>
   </group>
 </interface>
