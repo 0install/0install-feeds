@@ -380,4 +380,13 @@ interfere with those provided by the distribution.
       <archive extract="0install-linux-armv6l-2.11" href="0install-linux-armv6l-2.11.tar.bz2" size="3579867"/>
     </implementation>
   </group>
+  <group>
+    <requires interface="http://repo.roscidus.com/security/gnupg">
+      <executable-in-var name="ZEROINSTALL_GPG"/>
+    </requires>
+    <implementation arch="Windows-*" id="sha1new=1320732c46df741dee96fa7851539071550d2640" license="OSI Approved :: GNU Lesser General Public License (LGPL)" main="0install.exe" released="2016-02-07" version="2.11">
+      <manifest-digest sha256new="KJUNUEY57KOBOZVMAU4N3MJFLOO3FK3EMU62DUK3CFQVBNCNLU5A"/>
+      <archive extract="0install-Windows-2.11" href="https://downloads.sourceforge.net/project/zero-install/0install/2.11/0install-Windows-2.11.zip" size="3545396" type="application/zip"/>
+    </implementation>
+  </group>
 </interface>
