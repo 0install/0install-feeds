@@ -149,9 +149,13 @@ interfere with those provided by the distribution.
         <manifest-digest sha256new="T4AZ74J5X6VNCGLKTEK4IKXNM6QJJ7DVSYLODMEQ64JWAIJNYEIA"/>
         <archive extract="0install-2.11" href="0install-2.11.tar.bz2" size="438380"/>
       </implementation>
-      <implementation id="sha1new=22ff28f35f4505c0d1c473b3385b9aad4b6a93ff" released="2016-09-04" version="2.12">
+      <implementation id="sha1new=22ff28f35f4505c0d1c473b3385b9aad4b6a93ff" released="2016-09-04" stability="stable" version="2.12">
         <manifest-digest sha256new="PEA45SSI7PJTTATDGV2EMMKW3CWTHIBNZBKVVZ7DHCUKNRG7HPLA"/>
         <archive extract="0install-2.12" href="0install-2.12.tar.bz2" size="441288"/>
+      </implementation>
+      <implementation id="sha1new=59884502bab67bea502ec14942bcd12c81b393d1" released="2017-03-25" version="2.12.1">
+        <manifest-digest sha256new="IU5RJ63GYPZ752FVUZEZSFE5TBF2TBUHM6PJJBBBW72XDIXHEGMA"/>
+        <archive extract="0install-2.12.1" href="0install-2.12.1.tar.bz2" size="443157"/>
       </implementation>
     </group>
   </group>
@@ -383,17 +387,29 @@ interfere with those provided by the distribution.
       <manifest-digest sha256new="XENETEMCPBKPDIEWY65332HIE37MTWKQRDXV5OBA4GJA2Y3TJHJA"/>
       <archive extract="0install-linux-armv6l-2.11" href="0install-linux-armv6l-2.11.tar.bz2" size="3579867"/>
     </implementation>
-    <implementation arch="Linux-i486" id="sha1new=b48a931562868e5675f854fdb27fe9c727bc3e89" released="2016-09-04" version="2.12">
+    <implementation arch="Linux-i486" id="sha1new=b48a931562868e5675f854fdb27fe9c727bc3e89" released="2016-09-04" stability="stable" version="2.12">
       <manifest-digest sha256new="WGQ6XHWMBJ4CU366CXJO3GNARFMUFSHVGKN3UK6L3XIXPFDD45QQ"/>
       <archive extract="0install-linux-i486-2.12" href="0install-linux-i486-2.12.tar.bz2" size="3344733"/>
     </implementation>
-    <implementation arch="Linux-x86_64" id="sha1new=08565e0a2234a45adeb201d87d472d2b21e91512" released="2016-09-04" version="2.12">
+    <implementation arch="Linux-x86_64" id="sha1new=08565e0a2234a45adeb201d87d472d2b21e91512" released="2016-09-04" stability="stable" version="2.12">
       <manifest-digest sha256new="FUNBHOKDBPQHHIZRHRP3KNFMLEK6YZ222U5MZJ3K6KEFNVUOPEYA"/>
       <archive extract="0install-linux-x86_64-2.12" href="0install-linux-x86_64-2.12.tar.bz2" size="3886991"/>
     </implementation>
-    <implementation arch="Linux-armv6l" id="sha1new=cd0cd88aebed30399855c6d72a56476271d17044" released="2016-09-04" version="2.12">
+    <implementation arch="Linux-armv6l" id="sha1new=cd0cd88aebed30399855c6d72a56476271d17044" released="2016-09-04" stability="stable" version="2.12">
       <manifest-digest sha256new="APRCTIFUVXSHCE67BRLSZYZKECOS2GSZFACCKDMHR6XKJCVS6WWQ"/>
       <archive extract="0install-linux-armv6l-2.12" href="0install-linux-armv6l-2.12.tar.bz2" size="3557107"/>
+    </implementation>
+    <implementation arch="Linux-i486" id="sha1new=3331ec4716023f0821576105a3c5e5c4fb2914f8" released="2017-03-25" version="2.12.1">
+      <manifest-digest sha256new="2XCSBIZINKBUEKB6VQDG6M2VR73EVIKN7C2VY7I6SQ7WZUOKCT4A"/>
+      <archive extract="0install-linux-i486-2.12.1" href="0install-linux-i486-2.12.1.tar.bz2" size="3828284"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=ecf2fd56c7299514e0e5e79a5b1cff100aeabf00" released="2017-03-25" version="2.12.1">
+      <manifest-digest sha256new="KPYXNH62U445CPIFFURB5U3SMJWUSP7WISH6EOKT5BSUYHQQNJJQ"/>
+      <archive extract="0install-linux-x86_64-2.12.1" href="0install-linux-x86_64-2.12.1.tar.bz2" size="4038296"/>
+    </implementation>
+    <implementation arch="Linux-armv6l" id="sha1new=3c5f811699182941f405216ef94b2ee1ccb3c2ef" released="2017-03-25" version="2.12.1">
+      <manifest-digest sha256new="XXZVDAIRCMT5V2SQNJTDWALDDU2IUDZMANJ7O5XOV2ZBREVZU5FA"/>
+      <archive extract="0install-linux-armv6l-2.12.1" href="0install-linux-armv6l-2.12.1.tar.bz2" size="4326067"/>
     </implementation>
   </group>
   <group>
