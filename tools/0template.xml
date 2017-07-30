@@ -64,9 +64,13 @@
       <manifest-digest sha256new="YMMDCPWXMW3XTYDX6BIFXSBMZ5WTQV6CIKEZ3QVQ4EDV6NJ4N36A"/>
       <archive extract="0template-0.3" href="0template-0.3.tar.bz2" size="15513"/>
     </implementation>
-    <implementation id="sha1new=077fb1eb8f805d72a7c8e49dde422ab4fe0a4001" license="OSI Approved :: GNU Lesser General Public License (LGPL)" released="2017-05-14" version="0.4">
+    <implementation id="sha1new=077fb1eb8f805d72a7c8e49dde422ab4fe0a4001" license="OSI Approved :: GNU Lesser General Public License (LGPL)" released="2017-05-14" stability="stable" version="0.4">
       <manifest-digest sha256new="XPGVWCMI33FL44HCWMQUXVX3ZSWL427RHIVY3KLCGNV3ERDYENNA"/>
       <archive extract="0template-0.4" href="0template-0.4.tar.bz2" size="17107"/>
+    </implementation>
+    <implementation id="sha1new=01c9dfc0fc41c920b4213ff11e8a376a3236909c" license="OSI Approved :: GNU Lesser General Public License (LGPL)" released="2017-07-30" version="0.5">
+      <manifest-digest sha256new="PN4O6HVQQ4YV7SBXFOKGJ6T3BSCJ33VTWYZAXZKDO7LD36TCTUNQ"/>
+      <archive extract="0template-0.5" href="0template-0.5.tar.bz2" size="17556"/>
     </implementation>
   </group>
 </interface>
