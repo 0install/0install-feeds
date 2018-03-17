@@ -161,7 +161,7 @@ interfere with those provided by the distribution.
         <manifest-digest sha256new="XGL4M5HD6NZ4FQMQAHONJ4KEKDXO7FWFJLEND4NJ6XRW3ORRVXIQ"/>
         <archive extract="0install-2.12.2" href="0install-2.12.2.tar.bz2" size="443369"/>
       </implementation>
-      <implementation id="sha1new=4f99a7ac9ac4f1227b4b206d315187c34c8cad4e" released="2017-11-15" version="2.12.3">
+      <implementation id="sha1new=4f99a7ac9ac4f1227b4b206d315187c34c8cad4e" released="2017-11-15" stability="stable" version="2.12.3">
         <manifest-digest sha256new="ODQE27GC7CSVCIX36B6ZVLPLOH6FPO2IZNMX3JX3NQQJEMCPUVUQ"/>
         <archive extract="0install-2.12.3" href="0install-2.12.3.tar.bz2" size="445327"/>
       </implementation>
@@ -431,15 +431,15 @@ interfere with those provided by the distribution.
       <manifest-digest sha256new="I6POQPSDYS6XR3U5SSILIVPNM7LJCQASHZMJFLSPND5OUXWJKPYA"/>
       <archive extract="0install-linux-armv6l-2.12.2" href="0install-linux-armv6l-2.12.2.tar.bz2" size="4326764"/>
     </implementation>
-    <implementation arch="Linux-i486" id="sha1new=6ae090bad42e2014498fef0d258eac07ec576084" released="2017-11-15" version="2.12.3">
+    <implementation arch="Linux-i486" id="sha1new=6ae090bad42e2014498fef0d258eac07ec576084" released="2017-11-15" stability="stable" version="2.12.3">
       <manifest-digest sha256new="UWJAMSB33WPA4TA25Q6CJEFSJHMIDJXDIW7QYCZDZQSDSXXH753A"/>
       <archive extract="0install-linux-i486-2.12.3" href="0install-linux-i486-2.12.3.tar.bz2" size="3707059"/>
     </implementation>
-    <implementation arch="Linux-x86_64" id="sha1new=0af6e7c4852fa7d090c0d2182153a2b5bdcce964" released="2017-11-15" version="2.12.3">
+    <implementation arch="Linux-x86_64" id="sha1new=0af6e7c4852fa7d090c0d2182153a2b5bdcce964" released="2017-11-15" stability="stable" version="2.12.3">
       <manifest-digest sha256new="KMBP7THWUG6NKNIWNRRV3OLUMQZIOQCMIY4F4ST537W4ROARATVQ"/>
       <archive extract="0install-linux-x86_64-2.12.3" href="0install-linux-x86_64-2.12.3.tar.bz2" size="3925622"/>
     </implementation>
-    <implementation arch="Linux-armv6l" id="sha1new=44aa38b0564e492a77593db327916dea5a0da4ab" released="2017-11-15" version="2.12.3">
+    <implementation arch="Linux-armv6l" id="sha1new=44aa38b0564e492a77593db327916dea5a0da4ab" released="2017-11-15" stability="stable" version="2.12.3">
       <manifest-digest sha256new="VQS5PEB7GZD2NK7OCCQY4KSJF3WGRM2NINECJHGUS7HJYKWCD3TQ"/>
       <archive extract="0install-linux-armv6l-2.12.3" href="0install-linux-armv6l-2.12.3.tar.bz2" size="4192334"/>
     </implementation>
