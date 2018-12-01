@@ -20,6 +20,8 @@ For a full tutorial, see 0compile's homepage.</description>
   <needs-terminal/>
 
   <group main="0compile">
+    <requires interface="http://repo.roscidus.com/python/python-gobject"/>
+
     <implementation id="sha1=dce1eddc01d7102bef639d9c77f57e5490468acf" released="2006-09-27" stability="stable" version="0.1">
       <archive extract="0compile-0.1" href="http://freefr.dl.sourceforge.net/sourceforge/zero-install/0compile/0.1/0compile-0.1.tar.bz2" size="15393"/>
       <manifest-digest sha1new="ff6dda7e319c46e4fee85ccb7bdbd09cc19937a7"/>
