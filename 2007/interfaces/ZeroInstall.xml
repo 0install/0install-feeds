@@ -24,6 +24,7 @@ interfere with those provided by the distribution.
   </release:management>
 
   <group license="OSI Approved :: GNU Lesser General Public License (LGPL)" main="0launch" self-test="tests/allpython.sh">
+    <requires interface="http://repo.roscidus.com/python/python-gobject"/>
     <implementation id="sha1new=e1ee85471047f0b800fef438c6b532914ff310ae" released="2007-11-18" stability="stable" version="0.31">
       <archive extract="zeroinstall-injector-0.31" href="http://downloads.sourceforge.net/project/zero-install/injector/0.31/zeroinstall-injector-0.31.tar.bz2" size="121422"/>
     </implementation>
@@ -124,6 +125,7 @@ interfere with those provided by the distribution.
     </implementation>
   </group>
   <group license="OSI Approved :: GNU Lesser General Public License (LGPL)" main="0launch">
+    <requires interface="http://repo.roscidus.com/python/python-gobject"/>
     <command name="test" path="tests/testall.py">
       <runner interface="http://repo.roscidus.com/python/python">
         <version before="3"/>
@@ -209,6 +211,7 @@ interfere with those provided by the distribution.
   </group>
 
   <group license="OSI Approved :: GNU Lesser General Public License (LGPL)" main="0launch">
+    <requires interface="http://repo.roscidus.com/python/python-gobject"/>
     <restricts interface="http://repo.roscidus.com/python/python" version="2.6..!3 | 3.2.2.."/>
 
     <requires interface="http://repo.roscidus.com/security/gnupg">
@@ -244,6 +247,7 @@ interfere with those provided by the distribution.
     </implementation>
 
     <group>
+      <requires interface="http://repo.roscidus.com/python/python-gobject"/>
       <requires interface="http://0install.net/2012/interfaces/0install-runenv-cli.xml" os="Windows">
         <environment insert="runenv.cli.template" mode="replace" name="ZEROINSTALL_CLI_TEMPLATE"/>
         <version before="1.12.1"/>
@@ -254,6 +258,7 @@ interfere with those provided by the distribution.
       </implementation>
     </group>
     <group>
+      <requires interface="http://repo.roscidus.com/python/python-gobject"/>
       <requires interface="http://0install.net/2012/interfaces/0install-runenv-cli.xml" os="Windows">
         <environment insert="runenv.cli.template" mode="replace" name="ZEROINSTALL_CLI_TEMPLATE"/>
         <version not-before="1.12.1"/>
