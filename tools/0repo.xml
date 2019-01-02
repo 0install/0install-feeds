@@ -99,7 +99,7 @@
           <manifest-digest sha256new="U66D7DUIZWSAW7ONV4JMNVXACF7V6WRNCWKLPMBYCHE5W3GGQ7CA"/>
           <archive extract="0repo-0.5.2" href="0repo-0.5.2.tar.bz2" size="58499"/>
         </implementation>
-        <implementation id="sha1new=16473af76756d848e4450019d6c258253109d09d" released="2018-03-25" version="0.6">
+        <implementation id="sha1new=16473af76756d848e4450019d6c258253109d09d" released="2018-03-25" stability="stable" version="0.6">
           <manifest-digest sha256new="3EOPKU4SDDHPOODDQKAYH7XFEV5LRZ3S2QDC4PGFITKHF3KUN37Q"/>
           <archive extract="0repo-0.6" href="0repo-0.6.tar.bz2" size="58909"/>
         </implementation>
