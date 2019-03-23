@@ -170,6 +170,26 @@ interfere with those provided by the distribution.
         <archive extract="0install-2.13" href="0install-2.13.tar.bz2" size="446022"/>
       </implementation>
     </group>
+    <group>
+      <command name="compile">
+        <runner interface="http://repo.roscidus.com/devel/make">
+          <arg>SRCDIR=${SRCDIR}</arg>
+          <arg>DISTDIR=${DISTDIR}</arg>
+        </runner>
+
+        <compile:implementation main="files/0install">
+          <command name="run" path="files/0install"/>
+
+          <requires interface="http://repo.roscidus.com/security/gnupg">
+            <executable-in-var name="ZEROINSTALL_GPG"/>
+          </requires>
+        </compile:implementation>
+      </command>
+      <implementation compile:dup-src="true" id="sha1new=3f3bedb0a084cc4c1014837dff1a73d6fd19925b" released="2019-03-23" version="2.14">
+        <manifest-digest sha256new="CRSJVXINXDYD5AO5OSDHZQRWWGQQ2U3UBZOLJFX37YA47E4CK52A"/>
+        <archive extract="0install-2.14" href="0install-2.14.tar.bz2" size="446409"/>
+      </implementation>
+    </group>
   </group>
 
   <group license="OSI Approved :: GNU Lesser General Public License (LGPL)" main="files/0install">
@@ -454,6 +474,14 @@ interfere with those provided by the distribution.
     <implementation arch="Linux-armv7l" id="sha1new=47462001dd2fe5fb448013c292e821b132ca70b2" released="2018-06-01" stability="stable" version="2.13">
       <manifest-digest sha256new="S32XJBOOBYR5FYSF4EWRR2LE5AA3IP3Q6AKCEYTSJTPEL2R3VG6A"/>
       <archive extract="0install-linux-armv7l-2.13" href="0install-linux-armv7l-2.13.tar.bz2" size="4057742"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=0b61af752b6128164ea40c2d8d71544c354add6b" released="2019-03-23" version="2.14">
+      <manifest-digest sha256new="TNXPWPLL7K5AG2OLRHK6G3ITWXZNSO7O7BKXKI4PMGXZB7DVIYYQ"/>
+      <archive extract="0install-linux-x86_64-2.14" href="0install-linux-x86_64-2.14.tar.bz2" size="4095790"/>
+    </implementation>
+    <implementation arch="Linux-armv7l" id="sha1new=9d52801b34cd1fd55025e6ba838478c432d404a1" released="2019-03-23" version="2.14">
+      <manifest-digest sha256new="2O7AIX5S2X7QTD63MRDMJDOSDH5ATOLYIHJTWE73YHU4EL4R23EA"/>
+      <archive extract="0install-linux-armv7l-2.14" href="0install-linux-armv7l-2.14.tar.bz2" size="4156437"/>
     </implementation>
   </group>
   <group>
