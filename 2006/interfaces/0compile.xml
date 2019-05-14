@@ -462,7 +462,7 @@ For a full tutorial, see 0compile's homepage.</description>
         <version before="3"/>
       </runner>
     </command>
-    <implementation id="sha1new=7a621366b3f2894c5aa78edbd9ddcce1194461c8" license="OSI Approved :: GNU Lesser General Public License (LGPL)" released="2019-04-13" version="1.5">
+    <implementation id="sha1new=7a621366b3f2894c5aa78edbd9ddcce1194461c8" license="OSI Approved :: GNU Lesser General Public License (LGPL)" released="2019-04-13" stability="stable" version="1.5">
       <manifest-digest sha256new="4STRECIA4WWJMCYRR37AE5II5B2MCDE2ZQPVIZWVGEDHV3LBEYIA"/>
       <archive extract="0compile-1.5" href="0compile-1.5.tar.bz2" size="37908"/>
     </implementation>
