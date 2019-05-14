@@ -189,7 +189,7 @@ interfere with those provided by the distribution.
         <manifest-digest sha256new="CRSJVXINXDYD5AO5OSDHZQRWWGQQ2U3UBZOLJFX37YA47E4CK52A"/>
         <archive extract="0install-2.14" href="0install-2.14.tar.bz2" size="446409"/>
       </implementation>
-      <implementation compile:dup-src="true" id="sha1new=25e21699d7798d2e61deb08bd8b2f2c3770c3309" released="2019-04-24" version="2.14.1">
+      <implementation compile:dup-src="true" id="sha1new=25e21699d7798d2e61deb08bd8b2f2c3770c3309" released="2019-04-24" stability="stable" version="2.14.1">
         <manifest-digest sha256new="6XNUNKEYXVRUGBOL7LY65CY3BEOHT5RTLMLDHXQC6RZAPEYXFJJA"/>
         <archive extract="0install-2.14.1" href="0install-2.14.1.tar.bz2" size="446211"/>
       </implementation>
@@ -487,11 +487,11 @@ interfere with those provided by the distribution.
       <manifest-digest sha256new="2O7AIX5S2X7QTD63MRDMJDOSDH5ATOLYIHJTWE73YHU4EL4R23EA"/>
       <archive extract="0install-linux-armv7l-2.14" href="0install-linux-armv7l-2.14.tar.bz2" size="4156437"/>
     </implementation>
-    <implementation arch="Linux-x86_64" id="sha1new=47cee6be4ee21cde56de2c520308c2e9afd53466" released="2019-04-24" version="2.14.1">
+    <implementation arch="Linux-x86_64" id="sha1new=47cee6be4ee21cde56de2c520308c2e9afd53466" released="2019-04-24" stability="stable" version="2.14.1">
       <manifest-digest sha256new="CRLB654DNPCSFIJFLOCSD5DT6OMZHK3M6BJBXRMBHGGGHL3NB4PA"/>
       <archive extract="0install-linux-x86_64-2.14.1" href="0install-linux-x86_64-2.14.1.tar.bz2" size="4095113"/>
     </implementation>
-    <implementation arch="Linux-armv7l" id="sha1new=d3e608acc2b9c9dc9d72eb659124eb6ac0963d41" released="2019-04-24" version="2.14.1">
+    <implementation arch="Linux-armv7l" id="sha1new=d3e608acc2b9c9dc9d72eb659124eb6ac0963d41" released="2019-04-24" stability="stable" version="2.14.1">
       <manifest-digest sha256new="XXKHDU7T6GMYXXSUSEJ5N5PTDA7ZTSMBIQTPITBLEWSPJDYK54RA"/>
       <archive extract="0install-linux-armv7l-2.14.1" href="0install-linux-armv7l-2.14.1.tar.bz2" size="4156509"/>
     </implementation>
