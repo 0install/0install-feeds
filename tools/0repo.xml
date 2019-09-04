@@ -107,9 +107,22 @@
           <manifest-digest sha256new="3P62CQ6EU36QZNIOBDJKYBWC7RZB7OHRYFY4L3MZFNDYWN24Z2ZQ"/>
           <archive extract="0repo-0.7" href="0repo-0.7.tar.bz2" size="59067"/>
         </implementation>
-        <implementation id="sha1new=c93cece6c5c9e053fd4c7052658597f4da316707" released="2019-05-14" version="0.8">
+        <implementation id="sha1new=c93cece6c5c9e053fd4c7052658597f4da316707" released="2019-05-14" stability="stable" version="0.8">
           <manifest-digest sha256new="XDR7YKN7A5Q4DBIFI6MXIAF2MJN6GCNK5LGNHER2RYNSIBE656NA"/>
           <archive extract="0repo-0.8" href="0repo-0.8.tar.bz2" size="59122"/>
+        </implementation>
+      </group>
+      <group>
+        <requires interface="http://repo.roscidus.com/git/core">
+          <executable-in-path name="git"/>
+        </requires>
+        <requires interface="http://repo.roscidus.com/security/gnupg">
+          <executable-in-path name="gpg"/>
+          <executable-in-var name="GNUPG_PATH"/>
+        </requires>
+        <implementation id="sha1new=61000364299225fe3d9c3a5e53ea655a4f0b8d33" released="2019-09-04" version="0.9">
+          <manifest-digest sha256new="JZWXPIFZKJWO5NW2GN6OLRMM6DV3WHK336T4YJX24ZE5POX5YCDQ"/>
+          <archive extract="0repo-0.9" href="0repo-0.9.tar.bz2" size="59315"/>
         </implementation>
       </group>
     </group>
