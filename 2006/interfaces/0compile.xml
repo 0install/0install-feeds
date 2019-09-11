@@ -467,4 +467,35 @@ For a full tutorial, see 0compile's homepage.</description>
       <archive extract="0compile-1.5" href="0compile-1.5.tar.bz2" size="37908"/>
     </implementation>
   </group>
+  <group main="0compile">
+    <requires interface="http://0install.net/2006/interfaces/0publish">
+      <environment insert="0publish" mode="replace" name="ZI_COMPILE_0PUBLISH"/>
+    </requires>
+    <requires interface="http://0install.net/2007/interfaces/ZeroInstall.xml">
+      <version not-before="2.1"/>
+      <executable-in-var command="0install" name="ZI_COMPILE_0INSTALL"/>
+      <environment insert="" mode="replace" name="ZI_COMPILE_ZEROINSTALL"/>
+    </requires>
+    <requires interface="http://repo.roscidus.com/utils/bash" os="Windows">
+      <executable-in-var name="ZI_COMPILE_BASH"/>
+    </requires>
+    <command name="test" path="tests/testcompile.py">
+      <runner interface="http://repo.roscidus.com/python/python">
+        <version before="3"/>
+      </runner>
+      <requires interface="http://repo.roscidus.com/devel/make">
+        <executable-in-path name="make"/>
+      </requires>
+      <requires interface="http://rox.sourceforge.net/2005/interfaces/ROX-Lib"/>
+    </command>
+    <command name="run" path="0compile">
+      <runner interface="http://repo.roscidus.com/python/python">
+        <version before="3"/>
+      </runner>
+    </command>
+    <implementation id="sha1new=f4720383f0fa7c12b0322cf9ada3925197a3f80f" license="OSI Approved :: GNU Lesser General Public License (LGPL)" released="2019-09-11" version="1.6">
+      <manifest-digest sha256new="GOMJRA5FAW5RJQDD47AWGKLTJYXJRHQHARATXCNH2PHYR6YCY5GA"/>
+      <archive extract="0compile-1.6" href="0compile-1.6.tar.bz2" size="38000"/>
+    </implementation>
+  </group>
 </interface>
