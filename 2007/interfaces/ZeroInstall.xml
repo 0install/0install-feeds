@@ -24,7 +24,7 @@ interfere with those provided by the distribution.
   </release:management>
 
   <group license="OSI Approved :: GNU Lesser General Public License (LGPL)" main="0launch" self-test="tests/allpython.sh">
-    <requires interface="http://repo.roscidus.com/python/python" version='..!3'/>
+    <requires interface="http://repo.roscidus.com/python/python" version="..!3"/>
     <requires interface="http://repo.roscidus.com/python/python-gobject"/>
     <implementation id="sha1new=e1ee85471047f0b800fef438c6b532914ff310ae" released="2007-11-18" stability="stable" version="0.31">
       <archive extract="zeroinstall-injector-0.31" href="http://downloads.sourceforge.net/project/zero-install/injector/0.31/zeroinstall-injector-0.31.tar.bz2" size="121422"/>
@@ -325,6 +325,10 @@ interfere with those provided by the distribution.
       <implementation id="sha1new=6f4892dfcb947a03dd3b89f04b2d0650e871a060" released="2015-03-21" stability="stable" version="2.3.5">
         <manifest-digest sha256new="WJTXRQOJFWFYBVFWITHSXEPGWXBX5YTSQXVT5DUT7RMUTIH6ETYQ"/>
         <archive extract="0install-2.3.5" href="0install-2.3.5.tar.bz2" size="466037"/>
+      </implementation>
+      <implementation id="sha1new=da0f1904d7367b8dc2fed5a01c1225f6179a2060" released="2019-09-11" version="2.3.6">
+        <manifest-digest sha256new="ATVUT2S23GPOS2X4XSVCZ24MPOD3GTCWNQY7MUBDUNB2MJHP5TTQ"/>
+        <archive extract="0install-2.3.6" href="0install-2.3.6.tar.bz2" size="453912"/>
       </implementation>
     </group>
   </group>
