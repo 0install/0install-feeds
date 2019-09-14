@@ -326,7 +326,7 @@ interfere with those provided by the distribution.
         <manifest-digest sha256new="WJTXRQOJFWFYBVFWITHSXEPGWXBX5YTSQXVT5DUT7RMUTIH6ETYQ"/>
         <archive extract="0install-2.3.5" href="0install-2.3.5.tar.bz2" size="466037"/>
       </implementation>
-      <implementation id="sha1new=da0f1904d7367b8dc2fed5a01c1225f6179a2060" released="2019-09-11" version="2.3.6">
+      <implementation id="sha1new=da0f1904d7367b8dc2fed5a01c1225f6179a2060" released="2019-09-11" stability="stable" version="2.3.6">
         <manifest-digest sha256new="ATVUT2S23GPOS2X4XSVCZ24MPOD3GTCWNQY7MUBDUNB2MJHP5TTQ"/>
         <archive extract="0install-2.3.6" href="0install-2.3.6.tar.bz2" size="453912"/>
       </implementation>
