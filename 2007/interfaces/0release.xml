@@ -189,4 +189,45 @@ can help you to create new releases easily.</description>
     </group>
   </group>
 
+  <group main="0release">
+    <requires interface="http://repo.roscidus.com/python/python">
+      <version before="3"/>
+    </requires>
+    <requires interface="http://0install.net/tools/0repo.xml">
+      <environment insert="." mode="replace" name="RELEASE_0REPO"/>
+      <version not-before="0.2"/>
+    </requires>
+    <requires interface="http://0install.net/2006/interfaces/0publish">
+      <version not-before="0.17"/>
+      <environment if-0install-version="..!1.13" insert="0publish" mode="replace" name="ZI_PUBLISH"/>
+      <executable-in-var name="ZI_PUBLISH"/>
+    </requires>
+    <requires interface="http://0install.net/2007/interfaces/ZeroInstall.xml">
+      <version not-before="1.6"/>
+      <environment insert="" mode="replace" name="ZI_RELEASE_ZEROINSTALL"/>
+    </requires>
+    <requires interface="http://0install.net/2008/interfaces/0test.xml">
+      <version not-before="0.4-post"/>
+      <environment if-0install-version="..!1.13" insert="0test" mode="replace" name="ZI_TEST"/>
+      <executable-in-var name="ZI_TEST"/>
+    </requires>
+    <requires interface="http://0install.net/2006/interfaces/0compile.xml">
+      <version not-before="1.2"/>
+      <executable-in-var name="ZI_COMPILE"/>
+    </requires>
+    <command name="test" path="tests/testall.py">
+      <runner interface="http://repo.roscidus.com/python/python"/>
+      <executable-in-path name="0release"/>
+      <requires interface="http://repo.roscidus.com/devel/make">
+        <executable-in-path name="make"/>
+      </requires>
+    </command>
+    <command name="run" path="0release">
+      <runner interface="http://repo.roscidus.com/python/python"/>
+    </command>
+    <implementation id="sha1new=06a42d6e1fe8fd324bfb3148d3d97aaa356bf18b" license="OSI Approved :: GNU Lesser General Public License (LGPL)" released="2019-09-14" version="0.16">
+      <manifest-digest sha256new="WEJ5XRLDJO7UX3CY7PPPC7I7VAL2G5ZMESTJ7VGX2WPH3M56EVPQ"/>
+      <archive extract="0release-0.16" href="0release-0.16.tar.bz2" size="47898"/>
+    </implementation>
+  </group>
 </interface>
