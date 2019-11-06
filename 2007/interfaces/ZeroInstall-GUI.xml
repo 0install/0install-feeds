@@ -12,7 +12,7 @@ particular versions of libraries as preferred, bugggy, etc.
 This program is run automatically by the '0launch' command. If you want to add
 an installer to your desktop menus, you want something like Zero2Desktop
 instead.</description>
-  <homepage>http://0install.net/injector.html</homepage>
+  <homepage>https://0install.net/</homepage>
 
   <group main="0launch-gui"/>
 </interface>

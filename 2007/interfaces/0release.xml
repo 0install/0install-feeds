@@ -6,7 +6,7 @@
 If you have a local feed in the development version of your program, 0release
 can help you to create new releases easily.</description>
 
-  <homepage>http://0install.net/0release.xml</homepage>
+  <homepage>https://docs.0install.net/tools/0release/</homepage>
   <category>Development</category>
 
   <group license="OSI Approved :: GNU Lesser General Public License (LGPL)" main="0release">

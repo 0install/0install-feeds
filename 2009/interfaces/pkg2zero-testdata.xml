@@ -8,7 +8,7 @@
     quite large, they have their own package.
   </description>
 
-  <homepage>http://0install.net/pkg2zero.html</homepage>
+  <homepage>https://docs.0install.net/tools/pkg2zero/</homepage>
   <category>Development</category>
   <implementation id="sha1new=c2f3063311e16fc67345434b94ede109d31cf416" released="2013-02-18" stability="stable" version="0.7">
       <manifest-digest sha256new="XZ3VPKVUFX4QPFKB6GWW5RGRYEJHIF56KDL4FHE73P5N2N4MCUGQ"/>

@@ -18,7 +18,7 @@ program.
 Unlike the bundles created by the related zero2bundle program, programs
 installed using setup.sh are added to the Zero Install cache and are therefore
 still shared between users, and will get updates over the web where possible.</description>
-  <homepage>http://0install.net/0export.html</homepage>
+  <homepage>https://docs.0install.net/tools/0export/</homepage>
 
   <release:management xmlns:release="http://zero-install.sourceforge.net/2007/namespaces/0release">
     <!-- Update the copy of the version number in the main program -->

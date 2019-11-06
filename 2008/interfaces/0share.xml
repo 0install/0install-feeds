@@ -11,7 +11,7 @@ Before downloading a package over the internet, 0launch can check to see if any
 nearby machines have a copy, and get it from them instead if so. This will
 normally be much faster. The secure hash from the feed is used to check that the
 software hasn't been modified.</description>
-  <homepage>http://0install.net/0share.html</homepage>
+  <homepage>https://docs.0install.net/tools/0share/</homepage>
 
   <category>Network</category>
   <needs-terminal/>

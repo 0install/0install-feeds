@@ -8,7 +8,7 @@ Install feed can be downloaded, that it is valid and that all the links in it
 still work.
 
 Run this on all your feeds from time-to-time to make sure they still work.</description>
-  <homepage>http://0install.net/feedlint.html</homepage>
+  <homepage>https://docs.0install.net/tools/feedlint/</homepage>
   <category>Development</category>
   <needs-terminal/>
 

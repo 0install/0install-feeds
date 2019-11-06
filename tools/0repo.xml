@@ -8,7 +8,7 @@
     a web-server, or as a service which accepts signed updates from a group
     of developers.
   </description>
-  <homepage>http://0install.net/0repo.html</homepage>
+  <homepage>https://docs.0install.net/tools/0repo/</homepage>
 
   <release:management xmlns:release="http://zero-install.sourceforge.net/2007/namespaces/0release"><!-- Update the copy of the version number in the code -->
     <release:action phase="commit-release">sed -i &quot;s/^version = '.*'$/version = '$RELEASE_VERSION'/&quot; 0repo.py</release:action>

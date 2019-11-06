@@ -14,7 +14,7 @@ also validate the new version before saving it.
 
 A tutorial on 0publish can be found at http://0install.net/injector-
 packagers.html.</description>
-  <homepage>http://0install.net/0publish.html</homepage>
+  <homepage>https://docs.0install.net/tools/0publish/</homepage>
 
   <needs-terminal/>
 

@@ -11,7 +11,7 @@ manually (e.g. using 0publish or 0publish-gui). However, Debian and RPM packages
 contain much of the required information. This program extracts the information
 in an existing package and uses it to generate the feed.</description>
 
-  <homepage>http://0install.net/pkg2zero.html</homepage>
+  <homepage>https://docs.0install.net/tools/pkg2zero/</homepage>
   <category>Development</category>
   <needs-terminal/>
 

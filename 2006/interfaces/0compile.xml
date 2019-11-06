@@ -14,7 +14,7 @@ If plash is installed, it is used to sandbox the build so that it can't
 accidentally modifiy any files outside of the build directory.
 
 For a full tutorial, see 0compile's homepage.</description>
-  <homepage>http://0install.net/0compile.html</homepage>
+  <homepage>https://docs.0install.net/tools/0compile/</homepage>
   <category>Development</category>
 
   <needs-terminal/>

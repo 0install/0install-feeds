@@ -12,7 +12,7 @@ replace, the operating system's package management. 0install packages never
 interfere with those provided by the distribution.
   </description>
 
-  <homepage>http://0install.net/</homepage>
+  <homepage>https://0install.net/</homepage>
 
   <icon href="https://0install.net/feed_icons/ZeroInstall.png" type="image/png"/>
   <category>System</category>

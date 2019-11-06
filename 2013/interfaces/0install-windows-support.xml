@@ -3,7 +3,7 @@
   <name>0install-windows-support</name>
   <summary>support for 0install on Windows</summary>
 
-  <homepage>http://0install.net/</homepage>
+  <homepage>https://0install.net/</homepage>
 
   <group arch="*-src" license="OSI Approved :: GNU Lesser General Public License (LGPL)">
     <restricts interface="http://repo.roscidus.com/ocaml/ocaml-runtime">
