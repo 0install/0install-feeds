@@ -6,7 +6,7 @@
   <description>
 These are the GTK header files. They are required when compiling applications
 that use the GTK+ library.</description>
-  <icon href="http://0install.net/2006/icons/gtk-logo.png" type="image/png"/>
+  <icon href="https://0install.net/2006/icons/gtk-logo.png" type="image/png"/>
 
   <group compile:lib-mappings="gtk-x11-2.0:0 gdk-x11-2.0:0 gdk_pixbuf-2.0:0">
     <implementation id="sha1=c56e3783e3b62b329216bde10a4f72e0f530d19b" released="2006-04-01" stability="stable" version="2.4.14">

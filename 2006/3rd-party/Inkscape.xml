@@ -19,7 +19,7 @@ user and developer community by using open, community-oriented development.</des
 
   <homepage>http://inkscape.org/</homepage>
 
-  <icon href="http://0install.net/tests/Inkscape.png" type="image/png"/>
+  <icon href="https://0install.net/tests/Inkscape.png" type="image/png"/>
   <category>Graphics</category>
 
   <group arch="Linux-i386" main="usr/bin/inkscape">

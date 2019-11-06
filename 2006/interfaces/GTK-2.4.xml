@@ -17,7 +17,7 @@ the GTK dependencies to the source interface file.</description>
 
   <homepage>http://0install.net</homepage>
 
-  <icon href="http://0install.net/2006/icons/gtk-logo.png" type="image/png"/>
+  <icon href="https://0install.net/2006/icons/gtk-logo.png" type="image/png"/>
   <category>Development</category>
 
   <group main="gtk-2.4">

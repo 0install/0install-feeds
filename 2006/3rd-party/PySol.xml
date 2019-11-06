@@ -21,7 +21,7 @@ General Public License.
 PySol is written in 100% pure Python</description>
 
   <homepage>http://www.pysol.org/</homepage>
-  <icon href="http://0install.net/tests/pysol.png" type="image/png"/>
+  <icon href="https://0install.net/tests/pysol.png" type="image/png"/>
   <category>Game</category>
 
   <group main="usr/share/games/pysol/wrapper">

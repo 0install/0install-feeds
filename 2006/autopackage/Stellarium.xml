@@ -10,7 +10,7 @@ telescope.
 
 It is being used in planetarium projectors. Just set your coordinates and go.</description>
   <homepage>http://www.stellarium.org/</homepage>
-  <icon href="http://0install.net/feed_icons/Stellarium.png" type="image/png"/>
+  <icon href="https://0install.net/feed_icons/Stellarium.png" type="image/png"/>
   <category>Education</category>
 
   <group main="bin/stellarium">

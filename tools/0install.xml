@@ -14,7 +14,7 @@ interfere with those provided by the distribution.
 
   <homepage>http://0install.net/</homepage>
 
-  <icon href="http://0install.net/feed_icons/ZeroInstall.png" type="image/png"/>
+  <icon href="https://0install.net/feed_icons/ZeroInstall.png" type="image/png"/>
   <category>System</category>
 
   <release:management xmlns:release="http://zero-install.sourceforge.net/2007/namespaces/0release"><!-- Update the copy of the version number -->

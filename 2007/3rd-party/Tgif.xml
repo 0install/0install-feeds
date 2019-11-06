@@ -7,7 +7,7 @@
 Tgif is an interactive drawing tool that allows the user to draw and manipulate
 objects in the X Window System.</description>
   <homepage>http://bourbon.usc.edu/tgif/</homepage>
-  <icon href="http://0install.net/feed_icons/Tgif.png" type="image/png"/>
+  <icon href="https://0install.net/feed_icons/Tgif.png" type="image/png"/>
   <category>Graphics</category>
   <group license="OSI Approved :: Q Public License (QPL)" main="usr/X11R6/bin/tgif">
     <implementation id="sha1new=ad2546b6957d8994cb6bc6729ade559c54ee5adc" released="2007-04-28" stability="stable" version="4.1.45" version-modifier="-1">

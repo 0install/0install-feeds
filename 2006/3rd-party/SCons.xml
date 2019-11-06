@@ -17,7 +17,7 @@ and scanner objects.</description>
 
   <homepage>http://www.scons.org/</homepage>
 
-  <icon href="http://0install.net/tests/scons-logo.png" type="image/png"/>
+  <icon href="https://0install.net/tests/scons-logo.png" type="image/png"/>
   <category>Development</category>
   <needs-terminal/>
 

@@ -11,7 +11,7 @@
   really meant it &quot;my spare time&quot;!
   </description>
   <homepage>http://www.opencity.info/</homepage>
-  <icon href="http://0install.net/feed_icons/opencity.png" type="image/png"/>
+  <icon href="https://0install.net/feed_icons/opencity.png" type="image/png"/>
 
   <group main="bin/opencity">
     <implementation id="sha1new=e6b90b17e33288d39b221873b18afaf34355b5c3" released="Snapshot" stability="stable" version="0.1">

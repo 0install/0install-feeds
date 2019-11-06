@@ -17,7 +17,7 @@ creation and playback with cross-platform compatibility.</description>
 
   <feed src="http://0install.de/feeds/Blender.xml"/>
 
-  <icon href="http://0install.net/feed_icons/Blender.png" type="image/png"/>
+  <icon href="https://0install.net/feed_icons/Blender.png" type="image/png"/>
   <category>Video</category>
   <group arch="Linux-i386" license="OSI Approved :: GNU General Public License (GPL)" main="blender">
     <implementation id="sha1new=a7ef2e3cb34b5f243bf48cb3ab63bb511556e6d5" released="2007-01-13" stability="stable" version="2.42">

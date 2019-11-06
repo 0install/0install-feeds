@@ -19,7 +19,7 @@ mayhem, with highly advanced AI, network game play, and of course all in a 3D
 environment.</description>
 
   <homepage>http://www.armagetronad.net/</homepage>
-  <icon href="http://0install.net/feed_icons/armagetronad.png" type="image/png"/>
+  <icon href="https://0install.net/feed_icons/armagetronad.png" type="image/png"/>
   <category>Game</category>
 
   <group arch="Linux-i686" main="bin/armagetronad">
