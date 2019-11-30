@@ -499,14 +499,6 @@ interfere with those provided by the distribution.
       <manifest-digest sha256new="XXKHDU7T6GMYXXSUSEJ5N5PTDA7ZTSMBIQTPITBLEWSPJDYK54RA"/>
       <archive extract="0install-linux-armv7l-2.14.1" href="0install-linux-armv7l-2.14.1.tar.bz2" size="4156509"/>
     </implementation>
-    <implementation arch="Linux-x86_64" id="sha1new=fb0296884fc4b63072bbe8adfb7c46c1d00e5e4b" released="2019-11-30" version="2.14.2">
-      <manifest-digest sha256new="7AU2PMIG3AJ5CKQHFG4ZMAUEZULYFFNFZRLL5DCMZCWKENDVDEBA"/>
-      <archive extract="0install-linux-x86_64-2.14.2" href="0install-linux-x86_64-2.14.2.tar.bz2" size="4236840"/>
-    </implementation>
-    <implementation arch="Linux-armv7l" id="sha1new=a132a3c4e5981dff6c346d5c80133caf5caaf742" released="2019-11-30" version="2.14.2">
-      <manifest-digest sha256new="RSLGP36WI653CCXZCFVTT76FDNCS4KQ2TBRQ34BE6PDJOZHIFWGQ"/>
-      <archive extract="0install-linux-armv7l-2.14.2" href="0install-linux-armv7l-2.14.2.tar.bz2" size="4141866"/>
-    </implementation>
   </group>
   <group>
     <requires interface="http://repo.roscidus.com/security/gnupg">
