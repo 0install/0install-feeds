@@ -36,10 +36,10 @@ user and developer community by using open, community-oriented development.</des
   </group>
 
   <group main="bin/inkscape">
-    <requires interface="http://repo.roscidus.com/lib/gtkmm">
+    <requires interface="https://apps.0install.net/lib/gtkmm.xml">
       <environment insert="lib" name="LD_LIBRARY_PATH"/>
     </requires>
-    <requires interface="http://repo.roscidus.com/lib/gc">
+    <requires interface="https://apps.0install.net/lib/gc.xml">
       <environment insert="lib" name="LD_LIBRARY_PATH"/>
     </requires>
     <group arch="Linux-i386">

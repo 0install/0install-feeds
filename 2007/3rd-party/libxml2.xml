@@ -12,11 +12,10 @@ metalanguage for markup languages.
 
 This package provides a library providing an extensive API to handle
 such XML data files.
-
-This feed is deprecated; use http://repo.roscidus.com/lib/xml2 instead.
 </description>
-  <package-implementation package="libxml2"/>
-  <feed src="http://repo.roscidus.com/lib/xml2"/>
+  <package-implementation package="libxml2"/>  
+  <replaced-by interface="https://apps.0install.net/lib/xml2.xml"/>
+  <feed src="https://apps.0install.net/lib/xml2.xml"/>
   <group arch="Linux-i386">
     <implementation id="sha1new=73b4b856409f289ef29eac5d582ba1b724026ee5" released="2009-09-25" stability="stable" version="2.6.32">
     </implementation>

@@ -34,7 +34,7 @@ Run this on all your feeds from time-to-time to make sure they still work.</desc
         <environment insert="" mode="prepend" name="PYTHONPATH"/>
       </requires>
       <command name="run" path="feedlint">
-        <runner interface="http://repo.roscidus.com/python/python">
+        <runner interface="https://apps.0install.net/python/python.xml">
           <version before="3"/>
         </runner>
       </command>
@@ -48,7 +48,7 @@ Run this on all your feeds from time-to-time to make sure they still work.</desc
       </implementation>
       <group>
         <command name="test" path="feedlint">
-          <runner interface="http://repo.roscidus.com/python/python">
+          <runner interface="https://apps.0install.net/python/python.xml">
             <version before="3"/>
           </runner>
           <arg>FeedLint.xml</arg>
@@ -65,13 +65,13 @@ Run this on all your feeds from time-to-time to make sure they still work.</desc
         <environment insert="" mode="prepend" name="PYTHONPATH"/>
       </requires>
       <command name="test" path="feedlint">
-        <runner interface="http://repo.roscidus.com/python/python">
+        <runner interface="https://apps.0install.net/python/python.xml">
           <version before="3"/>
         </runner>
         <arg>FeedLint.xml</arg>
       </command>
       <command name="run" path="feedlint">
-        <runner interface="http://repo.roscidus.com/python/python">
+        <runner interface="https://apps.0install.net/python/python.xml">
           <version before="3"/>
         </runner>
       </command>

@@ -16,16 +16,16 @@
 
   <group license="OSI Approved :: GNU Lesser General Public License (LGPL)">
     <command name="run" path="0repo.py">
-      <runner interface="http://repo.roscidus.com/python/python"/>
+      <runner interface="https://apps.0install.net/python/python.xml"/>
     </command>
 
-    <requires interface="http://repo.roscidus.com/python/python">
+    <requires interface="https://apps.0install.net/python/python.xml">
       <version before="3" not-before="2.7"/>
     </requires>
 
     <group>
       <command name="test" path="tests/test0repo.py">
-        <runner interface="http://repo.roscidus.com/python/python"/>
+        <runner interface="https://apps.0install.net/python/python.xml"/>
         <executable-in-path name="0repo"/>
       </command>
 
@@ -50,7 +50,7 @@
         <version before="2.2-post" not-before="2.2"/>
       </requires>
       <command name="test" path="tests/runall.py">
-        <runner interface="http://repo.roscidus.com/python/python"/>
+        <runner interface="https://apps.0install.net/python/python.xml"/>
         <executable-in-path name="0repo"/>
       </command>
       <implementation id="sha1new=dd216a0f13d28e3559040673748375eeb3892274" released="2013-05-05" stability="stable" version="0.2">
@@ -64,7 +64,7 @@
         <version not-before="2.2-post"/>
       </requires>
       <command name="test" path="tests/runall.py">
-        <runner interface="http://repo.roscidus.com/python/python"/>
+        <runner interface="https://apps.0install.net/python/python.xml"/>
         <executable-in-path name="0repo"/>
       </command>
       <implementation id="sha1new=3b8029c925e7e9d1543ec252065ee6f337e7987d" released="2014-01-20" stability="stable" version="0.3">
@@ -72,7 +72,7 @@
         <archive extract="0repo-0.3" href="0repo-0.3.tar.bz2" size="54945"/>
       </implementation>
       <group>
-        <requires interface="http://repo.roscidus.com/git/core">
+        <requires interface="https://apps.0install.net/devel/git.xml">
           <environment insert="." name="PATH"/>
         </requires>
         <implementation id="sha1new=a1f0d2f4759ff228559568ea124427c4c75574eb" released="2015-07-11" stability="stable" version="0.4">
@@ -81,10 +81,10 @@
         </implementation>
       </group>
       <group>
-        <requires interface="http://repo.roscidus.com/git/core">
+        <requires interface="https://apps.0install.net/devel/git.xml">
           <executable-in-path name="git"/>
         </requires>
-        <requires interface="http://repo.roscidus.com/security/gnupg">
+        <requires interface="https://apps.0install.net/utils/gnupg.xml">
           <executable-in-path name="gpg"/>
         </requires>
         <implementation id="sha1new=b576684699a8e727bfbe45ae449661cc29306dfa" released="2017-08-14" version="0.5">
@@ -113,10 +113,10 @@
         </implementation>
       </group>
       <group>
-        <requires interface="http://repo.roscidus.com/git/core">
+        <requires interface="https://apps.0install.net/devel/git.xml">
           <executable-in-path name="git"/>
         </requires>
-        <requires interface="http://repo.roscidus.com/security/gnupg">
+        <requires interface="https://apps.0install.net/utils/gnupg.xml">
           <executable-in-path name="gpg"/>
           <executable-in-var name="GNUPG_PATH"/>
         </requires>

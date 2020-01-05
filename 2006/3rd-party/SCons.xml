@@ -23,7 +23,7 @@ and scanner objects.</description>
 
   <group license="OSI Approved :: MIT/X Consortium License" main="scons.py">
     <command name="run" path="scons.py">
-      <runner interface="http://repo.roscidus.com/python/python">
+      <runner interface="https://apps.0install.net/python/python.xml">
 	<version before="3" not-before="2.4"/>
       </runner>
     </command>

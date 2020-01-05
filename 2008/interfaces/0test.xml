@@ -61,12 +61,12 @@ create a matrix of test results.</description>
       </implementation>
       <group main="0test">
 	<command name="test" path="test0test.py">
-	  <runner interface="http://repo.roscidus.com/python/python">
+	  <runner interface="https://apps.0install.net/python/python.xml">
 	    <version before="3"/>
 	  </runner>
 	</command>
 	<command name="run" path="0test">
-	  <runner interface="http://repo.roscidus.com/python/python">
+	  <runner interface="https://apps.0install.net/python/python.xml">
 	    <version before="3"/>
 	  </runner>
 	</command>
@@ -86,7 +86,7 @@ create a matrix of test results.</description>
 	<environment insert="" mode="replace" name="0TEST_ZEROINSTALL"/>
       </requires>
       <command name="test" path="test0test.py">
-	<runner interface="http://repo.roscidus.com/python/python">
+	<runner interface="https://apps.0install.net/python/python.xml">
 	  <version before="3" not-before="2.7"/>
 	</runner>
 	<requires interface="http://0install.net/2006/interfaces/0publish">
@@ -95,7 +95,7 @@ create a matrix of test results.</description>
 	</requires>
       </command>
       <command name="run" path="0test">
-	<runner interface="http://repo.roscidus.com/python/python">
+	<runner interface="https://apps.0install.net/python/python.xml">
 	  <version before="3"/>
 	</runner>
       </command>
@@ -110,7 +110,7 @@ create a matrix of test results.</description>
 	<environment insert="" mode="replace" name="0TEST_ZEROINSTALL"/>
       </requires>
       <command name="test" path="test0test.py">
-	<runner interface="http://repo.roscidus.com/python/python">
+	<runner interface="https://apps.0install.net/python/python.xml">
 	  <version before="3"/>
 	</runner>
 	<requires interface="http://0install.net/2006/interfaces/0publish">
@@ -120,7 +120,7 @@ create a matrix of test results.</description>
 	</requires>
       </command>
       <command name="run" path="0test">
-	<runner interface="http://repo.roscidus.com/python/python">
+	<runner interface="https://apps.0install.net/python/python.xml">
 	  <version before="3"/>
 	</runner>
       </command>

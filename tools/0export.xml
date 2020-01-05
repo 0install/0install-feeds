@@ -63,12 +63,12 @@ still shared between users, and will get updates over the web where possible.</d
       <environment insert="" mode="replace" name="0EXPORT_ZEROINSTALL"/>
     </requires>
     <command name="test" path="test.py">
-      <runner interface="http://repo.roscidus.com/python/python">
+      <runner interface="https://apps.0install.net/python/python.xml">
 	<version before="3"/>
       </runner>
     </command>
     <command name="run" path="0export">
-      <runner interface="http://repo.roscidus.com/python/python">
+      <runner interface="https://apps.0install.net/python/python.xml">
 	<version before="3"/>
       </runner>
     </command>
@@ -83,12 +83,12 @@ still shared between users, and will get updates over the web where possible.</d
       <environment insert="" mode="replace" name="0EXPORT_ZEROINSTALL"/>
     </requires>
     <command name="test" path="test.py">
-      <runner interface="http://repo.roscidus.com/python/python">
+      <runner interface="https://apps.0install.net/python/python.xml">
 	<version before="3"/>
       </runner>
     </command>
     <command name="run" path="0export">
-      <runner interface="http://repo.roscidus.com/python/python">
+      <runner interface="https://apps.0install.net/python/python.xml">
 	<version before="3"/>
       </runner>
     </command>

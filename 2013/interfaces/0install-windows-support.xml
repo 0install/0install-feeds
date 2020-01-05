@@ -6,12 +6,12 @@
   <homepage>https://0install.net/</homepage>
 
   <group arch="*-src" license="OSI Approved :: GNU Lesser General Public License (LGPL)">
-    <restricts interface="http://repo.roscidus.com/ocaml/ocaml-runtime">
+    <restricts interface="https://apps.0install.net/ocaml/ocaml-runtime.xml">
       <version before="4.1" not-before="4.0"/>
     </restricts>
 
     <command name="compile">
-      <runner interface="http://repo.roscidus.com/devel/make">
+      <runner interface="https://apps.0install.net/devel/make.xml">
         <arg>-f</arg>
         <arg>${SRCDIR}/Makefile</arg>
       </runner>
