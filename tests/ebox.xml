@@ -40,7 +40,7 @@ Zero Install.</description>
   </implementation>
   <implementation id="sha1new=56d616bceb324eea3b436f76ecb3fe8239a94969" license="OSI Approved :: GNU Lesser General Public License (LGPL)" main="ebox.py" released="2013-02-26" stability="stable" version="0.4">
     <command name="run" path="ebox.py">
-      <runner interface="http://repo.roscidus.com/python/python">
+      <runner interface="https://apps.0install.net/python/python.xml">
 	<version before="3"/>
       </runner>
     </command>

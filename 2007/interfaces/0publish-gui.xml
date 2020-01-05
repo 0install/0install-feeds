@@ -50,12 +50,12 @@ these feeds.</description>
     </implementation>
     <group>
       <command name="test" path="tests/testall.py">
-      <runner interface="http://repo.roscidus.com/python/python">
+      <runner interface="https://apps.0install.net/python/python.xml">
 	<version before="3"/>
       </runner>
     </command>
       <command name="run" path="0publish-gui">
-      <runner interface="http://repo.roscidus.com/python/python">
+      <runner interface="https://apps.0install.net/python/python.xml">
 	<version before="3"/>
       </runner>
     </command>
@@ -83,12 +83,12 @@ these feeds.</description>
       <environment insert="ROX-Lib2/python" name="PYTHONPATH"/>
     </requires>
     <command name="test" path="tests/testall.py">
-      <runner interface="http://repo.roscidus.com/python/python">
+      <runner interface="https://apps.0install.net/python/python.xml">
 	<version before="3"/>
       </runner>
     </command>
     <command name="run" path="0publish-gui">
-      <runner interface="http://repo.roscidus.com/python/python">
+      <runner interface="https://apps.0install.net/python/python.xml">
 	<version before="3"/>
       </runner>
     </command>

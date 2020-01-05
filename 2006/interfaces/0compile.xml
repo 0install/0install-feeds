@@ -20,7 +20,7 @@ For a full tutorial, see 0compile's homepage.</description>
   <needs-terminal/>
 
   <group main="0compile">
-    <requires interface="http://repo.roscidus.com/python/python-gobject"/>
+    <requires interface="https://apps.0install.net/python/python.xml-gobject"/>
 
     <implementation id="sha1=dce1eddc01d7102bef639d9c77f57e5490468acf" released="2006-09-27" stability="stable" version="0.1">
       <archive extract="0compile-0.1" href="http://freefr.dl.sourceforge.net/sourceforge/zero-install/0compile/0.1/0compile-0.1.tar.bz2" size="15393"/>
@@ -190,12 +190,12 @@ For a full tutorial, see 0compile's homepage.</description>
         <environment insert="" mode="replace" name="0COMPILE_ZEROINSTALL"/>
       </requires>
       <command name="test" path="tests/testcompile.py">
-        <runner interface="http://repo.roscidus.com/python/python">
+        <runner interface="https://apps.0install.net/python/python.xml">
           <version before="3"/>
         </runner>
       </command>
       <command name="run" path="0compile">
-        <runner interface="http://repo.roscidus.com/python/python">
+        <runner interface="https://apps.0install.net/python/python.xml">
           <version before="3"/>
         </runner>
       </command>
@@ -222,12 +222,12 @@ For a full tutorial, see 0compile's homepage.</description>
         <environment insert="" mode="replace" name="0COMPILE_ZEROINSTALL"/>
       </requires>
       <command name="test" path="tests/testcompile.py">
-        <runner interface="http://repo.roscidus.com/python/python">
+        <runner interface="https://apps.0install.net/python/python.xml">
           <version before="3"/>
         </runner>
       </command>
       <command name="run" path="0compile">
-        <runner interface="http://repo.roscidus.com/python/python">
+        <runner interface="https://apps.0install.net/python/python.xml">
           <version before="3"/>
         </runner>
       </command>
@@ -246,12 +246,12 @@ For a full tutorial, see 0compile's homepage.</description>
         <environment insert="" mode="replace" name="0COMPILE_ZEROINSTALL"/>
       </requires>
       <command name="test" path="tests/testcompile.py">
-        <runner interface="http://repo.roscidus.com/python/python">
+        <runner interface="https://apps.0install.net/python/python.xml">
           <version before="3"/>
         </runner>
       </command>
       <command name="run" path="0compile">
-        <runner interface="http://repo.roscidus.com/python/python">
+        <runner interface="https://apps.0install.net/python/python.xml">
           <version before="3"/>
         </runner>
       </command>
@@ -270,12 +270,12 @@ For a full tutorial, see 0compile's homepage.</description>
         <environment insert="" mode="replace" name="0COMPILE_ZEROINSTALL"/>
       </requires>
       <command name="test" path="tests/testcompile.py">
-        <runner interface="http://repo.roscidus.com/python/python">
+        <runner interface="https://apps.0install.net/python/python.xml">
           <version before="3"/>
         </runner>
       </command>
       <command name="run" path="0compile">
-        <runner interface="http://repo.roscidus.com/python/python">
+        <runner interface="https://apps.0install.net/python/python.xml">
           <version before="3"/>
         </runner>
       </command>
@@ -294,12 +294,12 @@ For a full tutorial, see 0compile's homepage.</description>
         <environment insert="0publish" mode="replace" name="0COMPILE_0PUBLISH"/>
       </requires>
       <command name="test" path="tests/testcompile.py">
-        <runner interface="http://repo.roscidus.com/python/python">
+        <runner interface="https://apps.0install.net/python/python.xml">
           <version before="3"/>
         </runner>
       </command>
       <command name="run" path="0compile">
-        <runner interface="http://repo.roscidus.com/python/python">
+        <runner interface="https://apps.0install.net/python/python.xml">
           <version before="3"/>
         </runner>
       </command>
@@ -348,10 +348,10 @@ For a full tutorial, see 0compile's homepage.</description>
         </implementation>
         <group>
           <command name="test" path="tests/testcompile.py">
-            <runner interface="http://repo.roscidus.com/python/python">
+            <runner interface="https://apps.0install.net/python/python.xml">
               <version before="3"/>
             </runner>
-            <requires interface="http://repo.roscidus.com/devel/make">
+            <requires interface="https://apps.0install.net/devel/make.xml">
               <executable-in-path name="make"/>
             </requires>
           </command>
@@ -370,20 +370,20 @@ For a full tutorial, see 0compile's homepage.</description>
         <version before="2.3-post" not-before="2.1"/>
         <environment insert="" mode="replace" name="0COMPILE_ZEROINSTALL"/>
       </requires>
-      <requires interface="http://repo.roscidus.com/utils/bash" os="Windows">
+      <requires interface="https://apps.0install.net/utils/bash.xml" os="Windows">
         <executable-in-var name="0COMPILE_BASH"/>
       </requires>
       <command name="test" path="tests/testcompile.py">
-        <runner interface="http://repo.roscidus.com/python/python">
+        <runner interface="https://apps.0install.net/python/python.xml">
           <version before="3"/>
         </runner>
-        <requires interface="http://repo.roscidus.com/devel/make">
+        <requires interface="https://apps.0install.net/devel/make.xml">
           <executable-in-path name="make"/>
         </requires>
         <requires interface="http://rox.sourceforge.net/2005/interfaces/ROX-Lib"/>
       </command>
       <command name="run" path="0compile">
-        <runner interface="http://repo.roscidus.com/python/python">
+        <runner interface="https://apps.0install.net/python/python.xml">
           <version before="3"/>
         </runner>
       </command>
@@ -401,14 +401,14 @@ For a full tutorial, see 0compile's homepage.</description>
         <executable-in-var command="0install" name="0COMPILE_0INSTALL"/>
         <environment insert="" mode="replace" name="0COMPILE_ZEROINSTALL"/>
       </requires>
-      <requires interface="http://repo.roscidus.com/utils/bash" os="Windows">
+      <requires interface="https://apps.0install.net/utils/bash.xml" os="Windows">
         <executable-in-var name="0COMPILE_BASH"/>
       </requires>
       <command name="test" path="tests/testcompile.py">
-        <runner interface="http://repo.roscidus.com/python/python">
+        <runner interface="https://apps.0install.net/python/python.xml">
           <version before="3"/>
         </runner>
-        <requires interface="http://repo.roscidus.com/devel/make">
+        <requires interface="https://apps.0install.net/devel/make.xml">
           <executable-in-path name="make"/>
         </requires>
         <requires interface="http://0install.net/2007/interfaces/ZeroInstall.xml">
@@ -417,7 +417,7 @@ For a full tutorial, see 0compile's homepage.</description>
         <requires interface="http://rox.sourceforge.net/2005/interfaces/ROX-Lib"/>
       </command>
       <command name="run" path="0compile">
-        <runner interface="http://repo.roscidus.com/python/python">
+        <runner interface="https://apps.0install.net/python/python.xml">
           <version before="3"/>
         </runner>
       </command>
@@ -445,20 +445,20 @@ For a full tutorial, see 0compile's homepage.</description>
       <executable-in-var command="0install" name="0COMPILE_0INSTALL"/>
       <environment insert="" mode="replace" name="0COMPILE_ZEROINSTALL"/>
     </requires>
-    <requires interface="http://repo.roscidus.com/utils/bash" os="Windows">
+    <requires interface="https://apps.0install.net/utils/bash.xml" os="Windows">
       <executable-in-var name="0COMPILE_BASH"/>
     </requires>
     <command name="test" path="tests/testcompile.py">
-      <runner interface="http://repo.roscidus.com/python/python">
+      <runner interface="https://apps.0install.net/python/python.xml">
         <version before="3"/>
       </runner>
-      <requires interface="http://repo.roscidus.com/devel/make">
+      <requires interface="https://apps.0install.net/devel/make.xml">
         <executable-in-path name="make"/>
       </requires>
       <requires interface="http://rox.sourceforge.net/2005/interfaces/ROX-Lib"/>
     </command>
     <command name="run" path="0compile">
-      <runner interface="http://repo.roscidus.com/python/python">
+      <runner interface="https://apps.0install.net/python/python.xml">
         <version before="3"/>
       </runner>
     </command>
@@ -476,20 +476,20 @@ For a full tutorial, see 0compile's homepage.</description>
       <executable-in-var command="0install" name="ZI_COMPILE_0INSTALL"/>
       <environment insert="" mode="replace" name="ZI_COMPILE_ZEROINSTALL"/>
     </requires>
-    <requires interface="http://repo.roscidus.com/utils/bash" os="Windows">
+    <requires interface="https://apps.0install.net/utils/bash.xml" os="Windows">
       <executable-in-var name="ZI_COMPILE_BASH"/>
     </requires>
     <command name="test" path="tests/testcompile.py">
-      <runner interface="http://repo.roscidus.com/python/python">
+      <runner interface="https://apps.0install.net/python/python.xml">
         <version before="3"/>
       </runner>
-      <requires interface="http://repo.roscidus.com/devel/make">
+      <requires interface="https://apps.0install.net/devel/make.xml">
         <executable-in-path name="make"/>
       </requires>
       <requires interface="http://rox.sourceforge.net/2005/interfaces/ROX-Lib"/>
     </command>
     <command name="run" path="0compile">
-      <runner interface="http://repo.roscidus.com/python/python">
+      <runner interface="https://apps.0install.net/python/python.xml">
         <version before="3"/>
       </runner>
     </command>

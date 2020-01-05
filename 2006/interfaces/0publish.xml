@@ -88,12 +88,12 @@ packagers.html.</description>
       </implementation>
       <group>
         <command name="test" path="tests/testall.py">
-          <runner interface="http://repo.roscidus.com/python/python">
+          <runner interface="https://apps.0install.net/python/python.xml">
             <version before="3"/>
           </runner>
         </command>
         <command name="run" path="0publish">
-          <runner interface="http://repo.roscidus.com/python/python">
+          <runner interface="https://apps.0install.net/python/python.xml">
             <version before="3"/>
           </runner>
         </command>
@@ -112,12 +112,12 @@ packagers.html.</description>
         <environment insert="" mode="prepend" name="PYTHONPATH"/>
       </requires>
       <command name="test" path="tests/testall.py">
-        <runner interface="http://repo.roscidus.com/python/python">
+        <runner interface="https://apps.0install.net/python/python.xml">
           <version before="3"/>
         </runner>
       </command>
       <command name="run" path="0publish">
-        <runner interface="http://repo.roscidus.com/python/python">
+        <runner interface="https://apps.0install.net/python/python.xml">
           <version before="3"/>
         </runner>
       </command>
@@ -134,7 +134,7 @@ packagers.html.</description>
         <archive extract="0publish-0.24" href="http://downloads.sourceforge.net/project/zero-install/0publish/0.24/0publish-0.24.tar.bz2" size="26530"/>
       </implementation>
       <group>
-        <requires interface="http://repo.roscidus.com/security/gnupg">
+        <requires interface="https://apps.0install.net/utils/gnupg.xml">
           <environment insert="." name="PATH"/>
         </requires>
         <implementation id="sha1new=bc06f0a2023fba486929e28dfbbfe42d2a43d4b1" released="2015-07-01" stability="stable" version="0.25">

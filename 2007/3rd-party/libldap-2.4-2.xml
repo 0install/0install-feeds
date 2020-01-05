@@ -7,7 +7,7 @@
 Access Protocol) servers and clients.</description>
   <package-implementation package="libldap-2.4-2"/>
   <group arch="Linux-i386">
-    <requires interface="http://repo.roscidus.com/lib/gnutls26">
+    <requires interface="https://apps.0install.net/lib/gnutls26.xml">
       <environment insert="lib" name="LD_LIBRARY_PATH"/>
     </requires>
     <requires interface="http://0install.net/2007/3rd-party/libsasl2-2.xml">
