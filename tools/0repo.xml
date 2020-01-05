@@ -124,9 +124,13 @@
           <manifest-digest sha256new="JZWXPIFZKJWO5NW2GN6OLRMM6DV3WHK336T4YJX24ZE5POX5YCDQ"/>
           <archive extract="0repo-0.9" href="0repo-0.9.tar.bz2" size="59315"/>
         </implementation>
-        <implementation id="sha1new=264a0f1aaa31f827b49eee3ea67ef6a3859b778a" released="2019-11-09" version="0.9.1">
+        <implementation id="sha1new=264a0f1aaa31f827b49eee3ea67ef6a3859b778a" released="2019-11-09" stability="stable" version="0.9.1">
           <manifest-digest sha256new="FMEE2SQV3DPM76KYDK7VJVS7HSY2DPEYXDQ76C2NQHBVVJPEI72A"/>
           <archive extract="0repo-0.9.1" href="0repo-0.9.1.tar.bz2" size="59337"/>
+        </implementation>
+        <implementation id="sha1new=63a566c625f6572e988279039d15bb8ede5637e2" released="2020-01-05" version="0.10">
+          <manifest-digest sha256new="HLRXJNHXYBHV2ZEIJN7N7NI3HITKRSQFX5IGJY5PCRVHLFEI2GVA"/>
+          <archive extract="0repo-0.10" href="0repo-0.10.tar.bz2" size="59665"/>
         </implementation>
       </group>
     </group>
