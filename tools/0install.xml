@@ -45,7 +45,7 @@ interfere with those provided by the distribution.
           <executable-in-var name="ZEROINSTALL_PYTHON"/>
         </requires>
 
-        <requires interface="https://apps.0install.net/python/python.xml-gobject" os="POSIX"/>
+        <requires interface="https://apps.0install.net/python/pygobject.xml" os="POSIX"/>
       </compile:implementation>
     </command><!-- Need to add support to 0test for testing source code.
     <command name="test" path="tests/testall.py">
@@ -212,7 +212,7 @@ interfere with those provided by the distribution.
     <requires interface="https://apps.0install.net/python/python.xml" version="2.6..!3 | 3.2.2..">
       <executable-in-var name="ZEROINSTALL_PYTHON"/>
     </requires>
-    <requires interface="https://apps.0install.net/python/python.xml-gobject" os="POSIX"/>
+    <requires interface="https://apps.0install.net/python/pygobject.xml" os="POSIX"/>
     <implementation arch="Linux-x86_64" id="sha1new=034b781e3772109efc894a1ef7d3475b5fcc9d44" released="2013-09-17" version="2.4-rc1">
       <manifest-digest sha256new="MXT7VBBYGWINYW744QKH63HTE6TGPVDY2EPRO75MHFT32CDYOWFA"/>
       <archive extract="0install-linux-x86_64-2.4-rc1" href="0install-linux-x86_64-2.4-rc1.tar.bz2" size="1107894"/>
