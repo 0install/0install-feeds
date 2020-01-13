@@ -209,6 +209,31 @@ interfere with those provided by the distribution.
         <archive extract="zeroinstall-injector-1.8" href="http://downloads.sourceforge.net/project/zero-install/injector/1.8/zeroinstall-injector-1.8.tar.bz2" size="377536"/>
       </implementation>
     </group>
+    <group>
+      <requires interface="https://apps.0install.net/utils/gnupg.xml">
+        <executable-in-var name="ZEROINSTALL_GPG"/>
+      </requires>
+      <requires interface="https://apps.0install.net/python/python.xml" version="2.6..!3 | 3.2.2.."/>
+      <requires interface="http://0install.net/2012/interfaces/0install-runenv-cli.xml" os="Windows">
+        <environment insert="runenv.cli.template" mode="replace" name="ZEROINSTALL_CLI_TEMPLATE"/>
+        <version not-before="2.0.2"/>
+      </requires>
+      <command name="0install" path="0install">
+        <runner interface="https://apps.0install.net/python/python.xml"/>
+      </command>
+      <command name="test" path="tests/testall.py">
+        <runner interface="https://apps.0install.net/python/python.xml">
+          <arg>-tt</arg>
+        </runner>
+      </command>
+      <command name="run" path="0launch">
+        <runner interface="https://apps.0install.net/python/python.xml"/>
+      </command>
+      <implementation id="sha1new=65aaa7a75d5d086940e25408a23b1589441452c2" released="2020-01-13" version="2.3.7">
+        <manifest-digest sha256new="IURPHTF2HLVQI4A3U3QNZIW356YWTY6U4GOLTTZHBFCI3T5B6QRQ"/>
+        <archive extract="0install-2.3.7" href="0install-2.3.7.tar.bz2" size="454370"/>
+      </implementation>
+    </group>
   </group>
 
   <group license="OSI Approved :: GNU Lesser General Public License (LGPL)" main="0launch">
