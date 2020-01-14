@@ -213,7 +213,7 @@ interfere with those provided by the distribution.
       <requires interface="https://apps.0install.net/utils/gnupg.xml">
         <executable-in-var name="ZEROINSTALL_GPG"/>
       </requires>
-      <requires interface="https://apps.0install.net/python/python.xml" version="2.6..!3 | 3.2.2.."/>
+      <requires interface="https://apps.0install.net/python/python.xml" version="2.6..!3 | 3.2.2..!3.5 | 3.7.."/>
       <requires interface="http://0install.net/2012/interfaces/0install-runenv-cli.xml" os="Windows">
         <environment insert="runenv.cli.template" mode="replace" name="ZEROINSTALL_CLI_TEMPLATE"/>
         <version not-before="2.0.2"/>
@@ -362,7 +362,7 @@ interfere with those provided by the distribution.
     <requires interface="https://apps.0install.net/utils/gnupg.xml">
       <executable-in-var name="ZEROINSTALL_GPG"/>
     </requires>
-    <requires interface="https://apps.0install.net/python/python.xml" version="3.4.."/>
+    <requires interface="https://apps.0install.net/python/python.xml" version="3.4..!3.5|3.7.."/>
     <requires interface="http://0install.net/2012/interfaces/0install-runenv-cli.xml" os="Windows">
       <environment insert="runenv.cli.template" mode="replace" name="ZEROINSTALL_CLI_TEMPLATE"/>
       <version not-before="2.0.2"/>
