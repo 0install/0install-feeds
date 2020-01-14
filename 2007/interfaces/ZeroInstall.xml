@@ -26,6 +26,7 @@ interfere with those provided by the distribution.
   <group license="OSI Approved :: GNU Lesser General Public License (LGPL)" main="0launch" self-test="tests/allpython.sh">
     <requires interface="https://apps.0install.net/python/python.xml" version="..!3"/>
     <requires interface="https://apps.0install.net/python/pygobject.xml"/>
+    <requires interface="https://apps.0install.net/python/pywin32.xml" os="Windows"/>
     <implementation id="sha1new=e1ee85471047f0b800fef438c6b532914ff310ae" released="2007-11-18" stability="stable" version="0.31">
       <archive extract="zeroinstall-injector-0.31" href="http://downloads.sourceforge.net/project/zero-install/injector/0.31/zeroinstall-injector-0.31.tar.bz2" size="121422"/>
     </implementation>
@@ -127,6 +128,7 @@ interfere with those provided by the distribution.
   </group>
   <group license="OSI Approved :: GNU Lesser General Public License (LGPL)" main="0launch">
     <requires interface="https://apps.0install.net/python/pygobject.xml"/>
+    <requires interface="https://apps.0install.net/python/pywin32.xml" os="Windows"/>
     <command name="test" path="tests/testall.py">
       <runner interface="https://apps.0install.net/python/python.xml">
         <version before="3"/>
@@ -238,6 +240,7 @@ interfere with those provided by the distribution.
 
   <group license="OSI Approved :: GNU Lesser General Public License (LGPL)" main="0launch">
     <requires interface="https://apps.0install.net/python/pygobject.xml"/>
+    <requires interface="https://apps.0install.net/python/pywin32.xml" os="Windows"/>
     <requires interface="https://apps.0install.net/python/python.xml" version="2.6..!3 | 3.2.2..!3.7"/>
 
     <requires interface="https://apps.0install.net/utils/gnupg.xml">
@@ -363,6 +366,7 @@ interfere with those provided by the distribution.
       <executable-in-var name="ZEROINSTALL_GPG"/>
     </requires>
     <requires interface="https://apps.0install.net/python/python.xml" version="3.4..!3.5|3.7.."/>
+    <requires interface="https://apps.0install.net/python/pywin32.xml" os="Windows"/>
     <requires interface="http://0install.net/2012/interfaces/0install-runenv-cli.xml" os="Windows">
       <environment insert="runenv.cli.template" mode="replace" name="ZEROINSTALL_CLI_TEMPLATE"/>
       <version not-before="2.0.2"/>
@@ -388,6 +392,7 @@ interfere with those provided by the distribution.
       <executable-in-var name="ZEROINSTALL_GPG"/>
     </requires>
     <requires interface="https://apps.0install.net/python/python.xml" version="3.4.."/>
+    <requires interface="https://apps.0install.net/python/pywin32.xml" os="Windows"/>
     <requires interface="http://0install.net/2012/interfaces/0install-runenv-cli.xml" os="Windows">
       <environment insert="runenv.cli.template" mode="replace" name="ZEROINSTALL_CLI_TEMPLATE"/>
       <version not-before="2.0.2"/>
