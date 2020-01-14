@@ -142,15 +142,12 @@ packagers.html.</description>
           <archive extract="0publish-0.25" href="0publish-0.25.tar.bz2" size="26799"/>
         </implementation>
         <group>
+	  <requires interface="https://apps.0install.net/python/python.xml" version='3..'/>
           <command name="test" path="tests/testall.py">
-            <runner interface="https://apps.0install.net/python/python.xml">
-              <version not-before="3"/>
-            </runner>
+	    <runner interface="https://apps.0install.net/python/python.xml"/>
           </command>
           <command name="run" path="0publish">
-            <runner interface="https://apps.0install.net/python/python.xml">
-              <version not-before="3"/>
-            </runner>
+	    <runner interface="https://apps.0install.net/python/python.xml"/>
           </command>
           <implementation id="sha1new=526ae0429d5cf95eefcd7e891b11e150b7e806ac" released="2020-01-14" version="0.26">
             <manifest-digest sha256new="7LKYTUQ3Y24PQV2BX3B3CNYLTH4SSEKRP7F7YIJSQSA3A7EKDU3Q"/>
