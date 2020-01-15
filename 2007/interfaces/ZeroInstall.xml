@@ -408,5 +408,9 @@ interfere with those provided by the distribution.
       <manifest-digest sha256new="ACHOCUN4DPOK5NRJP4354E3HUKAMPXWH6A5BBEKO3URACQ7BHEGQ"/>
       <archive extract="0install-2.3.9" href="0install-2.3.9.tar.bz2" size="453933"/>
     </implementation>
+    <implementation id="sha1new=31091e7ac1dde3fbfaeecae391db0ba7dbadd507" license="OSI Approved :: GNU Lesser General Public License (LGPL)" released="2020-01-15" version="2.3.10">
+      <manifest-digest sha256new="5UEHT6NYXFXRDGHVMMSOWGJF35EDILQE7ZMS4LHLY2ZQCK72YANA"/>
+      <archive extract="0install-2.3.10" href="0install-2.3.10.tar.bz2" size="454157"/>
+    </implementation>
   </group>
 </interface>
