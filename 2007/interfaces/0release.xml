@@ -91,7 +91,7 @@ can help you to create new releases easily.</description>
           <version before="3"/>
         </runner>
       </command>
-      <implementation id="sha1new=56e8a61871441490dc2eeaecf4b2c7038f9aebda" license="OSI Approved :: GNU Lesser General Public License (LGPL)" main="0release" released="2011-04-18" stability="stable" version="0.13">
+      <implementation id="sha1new=56e8a61871441490dc2eeaecf4b2c7038f9aebda" license="OSI Approved :: GNU Lesser General Public License (LGPL)" released="2011-04-18" stability="stable" version="0.13">
         <manifest-digest sha256="f4e6b896f72c026675b1e7f5d1cf31e5870b69feafbdd5bbdc9c47e9b2adb9cc"/>
         <archive extract="0release-0.13" href="http://downloads.sourceforge.net/project/zero-install/0release/0.13/0release-0.13.tar.bz2" size="54887"/>
       </implementation>
@@ -121,11 +121,11 @@ can help you to create new releases easily.</description>
         <version before="3"/>
       </runner>
     </command>
-    <implementation id="sha1new=4ec87241cc6e72c0bc7f68f6a3f9409727473a64" license="OSI Approved :: GNU Lesser General Public License (LGPL)" main="0release" released="2012-09-15" version="0.14">
+    <implementation id="sha1new=4ec87241cc6e72c0bc7f68f6a3f9409727473a64" license="OSI Approved :: GNU Lesser General Public License (LGPL)" released="2012-09-15" version="0.14">
       <manifest-digest sha256="f2d351c651fa4c7f9031f7675ea2c42faa3a4265791ea417980fb36e4551ec9d"/>
       <archive extract="0release-0.14" href="http://downloads.sourceforge.net/project/zero-install/0release/0.14/0release-0.14.tar.bz2" size="55026"/>
     </implementation>
-    <implementation id="sha1new=0c782acf661cfde11ea1174baf70a143f237bea1" license="OSI Approved :: GNU Lesser General Public License (LGPL)" main="0release" released="2012-09-24" stability="stable" version="0.14.1">
+    <implementation id="sha1new=0c782acf661cfde11ea1174baf70a143f237bea1" license="OSI Approved :: GNU Lesser General Public License (LGPL)" released="2012-09-24" stability="stable" version="0.14.1">
       <manifest-digest sha256="2bb1cc0c4b40ef4a5bdda0a89d3a63c24e40572f87528b67280b6d2cefdc33c2"/>
       <archive extract="0release-0.14.1" href="http://downloads.sourceforge.net/project/zero-install/0release/0.14.1/0release-0.14.1.tar.bz2" size="55257"/>
     </implementation>
@@ -156,7 +156,7 @@ can help you to create new releases easily.</description>
         <version before="3"/>
       </runner>
     </command>
-    <implementation id="sha1new=a795fbb8216165ef5af7287291895fa52aed8f22" license="OSI Approved :: GNU Lesser General Public License (LGPL)" main="0release" released="2013-02-15" version="0.14.2">
+    <implementation id="sha1new=a795fbb8216165ef5af7287291895fa52aed8f22" license="OSI Approved :: GNU Lesser General Public License (LGPL)" released="2013-02-15" version="0.14.2">
       <manifest-digest sha256new="ZZFWCM36NM4YR3MKLGQVCLSNYKITZYBNIBYWUJEXJ3PXETDBP6FA"/>
       <archive extract="0release-0.14.2" href="http://downloads.sourceforge.net/project/zero-install/0release/0.14.2/0release-0.14.2.tar.bz2" size="55318"/>
     </implementation>
