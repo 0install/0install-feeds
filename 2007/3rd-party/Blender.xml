@@ -15,7 +15,7 @@ well as an integrated game engine for real-time interactive 3D, and game
 creation and playback with cross-platform compatibility.</description>
   <homepage>http://www.blender.org</homepage>
 
-  <feed src="http://0install.de/feeds/Blender.xml"/>
+  <feed src="https://apps.0install.net/gui/blender.xml"/>
 
   <icon href="https://0install.net/feed_icons/Blender.png" type="image/png"/>
   <category>Video</category>
