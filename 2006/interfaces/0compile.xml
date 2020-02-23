@@ -523,7 +523,7 @@ For a full tutorial, see 0compile's homepage.</description>
       </requires>
       <requires interface="http://rox.sourceforge.net/2005/interfaces/ROX-Lib"/>
     </command>
-    <implementation id="sha1new=091f01b62fc034d0741ca2daaadb1e951800f197" license="OSI Approved :: GNU Lesser General Public License (LGPL)" released="2020-01-17" version="1.7">
+    <implementation id="sha1new=091f01b62fc034d0741ca2daaadb1e951800f197" license="OSI Approved :: GNU Lesser General Public License (LGPL)" released="2020-01-17" stability="stable" version="1.7">
       <manifest-digest sha256new="JVOJOX7AWISFZ6BGP46FTMBHTTRA2HP433NUG3VWEXGI3DC7INDA"/>
       <archive extract="0compile-1.7" href="0compile-1.7.tar.bz2" size="38261"/>
     </implementation>

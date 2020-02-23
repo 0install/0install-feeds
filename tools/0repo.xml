@@ -154,7 +154,7 @@
       <runner interface="https://apps.0install.net/python/python.xml"/>
       <executable-in-path name="0repo"/>
     </command>
-    <implementation id="sha1new=a6cddf09966e1a58fe3956f868c1eb31f725d30a" license="OSI Approved :: GNU Lesser General Public License (LGPL)" released="2020-01-15" version="0.11">
+    <implementation id="sha1new=a6cddf09966e1a58fe3956f868c1eb31f725d30a" license="OSI Approved :: GNU Lesser General Public License (LGPL)" released="2020-01-15" stability="stable" version="0.11">
       <manifest-digest sha256new="ZIVRKJSQLU3WN6XS32DEOS6MST7PNM5QP6XS6WGIL7H37C4WXCPA"/>
       <archive extract="0repo-0.11" href="0repo-0.11.tar.bz2" size="60513"/>
     </implementation>

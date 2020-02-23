@@ -145,7 +145,7 @@ create a matrix of test results.</description>
       <command name="run" path="0test">
         <runner interface="https://apps.0install.net/python/python.xml" version="3.."/>
       </command>
-      <implementation id="sha1new=b6a836df77627fb192bfdb8486af94b1cc6befb8" released="2020-01-15" version="0.10">
+      <implementation id="sha1new=b6a836df77627fb192bfdb8486af94b1cc6befb8" released="2020-01-15" stability="stable" version="0.10">
         <manifest-digest sha256new="52PPAJWLPWUDW4D4CNWCRURWHVCBNOBEVXIDHU4PTIV4ZXKF5INA"/>
         <archive extract="0test-0.10" href="0test-0.10.tar.bz2" size="13612"/>
       </implementation>
