@@ -205,11 +205,11 @@ interfere with those provided by the distribution.
         <manifest-digest sha256new="P2CUBB67BXFW2XKD57RAYJT5STHWEB5ZHGZP6L6OG7TAGBPJGMQQ"/>
         <archive extract="0install-2.15.1" href="0install-2.15.1.tar.bz2" size="452954"/>
       </implementation>
-      <implementation id="sha1new=4d5c7848e23238f396ca834e9efffdeb023c1798" compile:dup-src="true" released="2020-03-29" version="2.15.2">
+      <implementation compile:dup-src="true" id="sha1new=4d5c7848e23238f396ca834e9efffdeb023c1798" released="2020-03-29" stability="stable" version="2.15.2">
         <manifest-digest sha256new="BTNQQNR3WKI5FY2PZNFJHIA6XALY44TREBNNN7YTIPPCLRZQREOA"/>
         <archive extract="0install-v2.15.2" href="0install-v2.15.2.tbz" size="445876"/>
       </implementation>
-      <implementation id="sha1new=ec23cc19b69f000aa937c7b8fbe7b6fb50ec5035" compile:dup-src="true" released="2020-04-02" version="2.16">
+      <implementation compile:dup-src="true" id="sha1new=ec23cc19b69f000aa937c7b8fbe7b6fb50ec5035" released="2020-04-02" version="2.16">
         <manifest-digest sha256new="SNX4SZM655QXXR6MXM6X6J4I23SJT6LXRLEMPAOPQJLKMCCPWUWA"/>
         <archive extract="0install-v2.16" href="0install-v2.16.tbz" size="445883"/>
       </implementation>
@@ -538,6 +538,10 @@ interfere with those provided by the distribution.
     <implementation arch="Linux-armv7l" id="sha1new=20388402b84771337a12ccff6037d080fc866fea" released="2020-03-29" stability="stable" version="2.15.2">
       <manifest-digest sha256new="MDDTDT4FZSHKQZ7WU3DAIGVQCPD5BFVL4MLBFXKNLKKXVQ6ELMHA"/>
       <archive extract="0install-linux-armv7l-2.15.2" href="0install-linux-armv7l-2.15.2.tar.bz2" size="7062062"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=e07fc7b56588bffde0e9186e623038b9c62dedc8" released="2020-04-26" version="2.16">
+      <manifest-digest sha256new="AQ53XY3HFWTFNP2KYJD2P552VHIUODP5TEPKQNPEJAVLZBM2TDVQ"/>
+      <archive extract="0install-linux-x86_64-2.16" href="0install-linux-x86_64-2.16.tar.bz2" size="8133398"/>
     </implementation>
   </group>
   <group>
