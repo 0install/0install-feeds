@@ -543,6 +543,10 @@ interfere with those provided by the distribution.
       <manifest-digest sha256new="AQ53XY3HFWTFNP2KYJD2P552VHIUODP5TEPKQNPEJAVLZBM2TDVQ"/>
       <archive extract="0install-linux-x86_64-2.16" href="0install-linux-x86_64-2.16.tar.bz2" size="8133398"/>
     </implementation>
+    <implementation arch="Linux-armv7l" id="sha1new=06b8afb691f401560533170c6afbf4c0de6e3aa1" released="2020-04-26" version="2.16">
+      <manifest-digest sha256new="HPXDW6UXQT6RKEVTUNZ5VC6DZLVQ4GNCWYIF7EG66POAB3Y5UWWQ"/>
+      <archive extract="0install-linux-armv7l-2.16" href="0install-linux-armv7l-2.16.tar.bz2" size="7954112"/>
+    </implementation>
   </group>
   <group>
     <requires interface="https://apps.0install.net/utils/gnupg.xml">
