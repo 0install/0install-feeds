@@ -551,6 +551,10 @@ interfere with those provided by the distribution.
       <manifest-digest sha256new="HPXDW6UXQT6RKEVTUNZ5VC6DZLVQ4GNCWYIF7EG66POAB3Y5UWWQ"/>
       <archive extract="0install-linux-armv7l-2.16" href="0install-linux-armv7l-2.16.tar.bz2" size="7954112"/>
     </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=6a82c5e3dd2a20b3cdfd6cf1473941391edbd01b" released="2020-05-04" version="2.17">
+      <manifest-digest sha256new="ZHPWRE2HF4SH7CH34PVS7HUDPVHCR4ONEOBUJYD3ADWSQ4L5KHAA"/>
+      <archive extract="0install-linux-x86_64-2.17" href="0install-linux-x86_64-2.17.tar.bz2" size="8134563"/>
+    </implementation>
   </group>
   <group>
     <requires interface="https://apps.0install.net/utils/gnupg.xml">
