@@ -420,9 +420,13 @@ interfere with those provided by the distribution.
       <manifest-digest sha256new="UUKHJE54V5UDDL2EIMWO5PLH7R6OG7IHEWRPQMJVNPDN5CKRN4OA"/>
       <archive extract="0install-2.3.12" href="0install-2.3.12.tar.bz2" size="454707"/>
     </implementation>
-    <implementation id="sha1new=4ede123d2954c6630eb39f5cf16884223350d168" license="OSI Approved :: GNU Lesser General Public License (LGPL)" released="2021-01-28" version="2.3.13">
+    <implementation id="sha1new=4ede123d2954c6630eb39f5cf16884223350d168" license="OSI Approved :: GNU Lesser General Public License (LGPL)" released="2021-01-28" stability="stable" version="2.3.13">
       <manifest-digest sha256new="IJK75D4MWTFWQADUXCUPY6EAM2DG45UMFJ5Z3BAZPZV5PXT34AYQ"/>
       <archive extract="0install-2.3.13" href="0install-2.3.13.tar.bz2" size="468847"/>
+    </implementation>
+    <implementation id="sha1new=90cafde7c4b28c60335814303629d999bc17a1e3" license="OSI Approved :: GNU Lesser General Public License (LGPL)" released="2021-02-17" version="2.3.14">
+      <manifest-digest sha256new="TFUFHK4D23XJMGJ2UVRGAP252PI6TKK67FLYLML4ZAWRDW5XBQMA"/>
+      <archive extract="0install-2.3.14" href="0install-2.3.14.tar.bz2" size="468865"/>
     </implementation>
   </group>
 </interface>
