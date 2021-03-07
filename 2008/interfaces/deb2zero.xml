@@ -24,15 +24,15 @@ in an existing Debian package and uses it to generate the feed.</description>
     </implementation>
     <implementation id="sha1new=9ec0a8cdf2ccdbeb9883f1da9ee4b806b4d5167f" released="2008-05-24" version="0.3">
       <archive extract="deb2zero-0.3" href="http://downloads.sourceforge.net/project/zero-install/deb2zero/0.3/deb2zero-0.3.tar.bz2" size="15304" type="application/x-bzip-compressed-tar"/>
-      <requires interface="http://0install.net/2006/interfaces/0publish">
+      <requires interface="https://apps.0install.net/0install/0publish.xml">
         <environment insert="" mode="prepend" name="PATH"/>
       </requires>
     </implementation>
     <group>
-      <requires interface="http://0install.net/2006/interfaces/0publish">
+      <requires interface="https://apps.0install.net/0install/0publish.xml">
         <environment insert="0publish" mode="prepend" name="PUBLISH_COMMAND"/>
       </requires>
-      <requires interface="http://0install.net/2007/interfaces/ZeroInstall.xml">
+      <requires interface="https://apps.0install.net/0install/0install-python.xml">
         <version not-before="0.33"/>
         <environment insert="" mode="prepend" name="PYTHONPATH"/>
       </requires>

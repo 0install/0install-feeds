@@ -31,7 +31,7 @@ Zero Install.</description>
     <requires interface="http://repo.roscidus.com/e/e-swt">
       <environment insert="rune" name="EBOX_RUNE"/>
     </requires>
-    <requires interface="http://0install.net/2007/interfaces/ZeroInstall.xml">
+    <requires interface="https://apps.0install.net/0install/0install-python.xml">
       <version before="0.51"/>
       <environment insert="." name="PYTHONPATH"/>
     </requires>
@@ -47,7 +47,7 @@ Zero Install.</description>
     <requires interface="http://repo.roscidus.com/e/e-swt">
       <environment insert="rune" name="EBOX_RUNE"/>
     </requires>
-    <requires interface="http://0install.net/2007/interfaces/ZeroInstall.xml">
+    <requires interface="https://apps.0install.net/0install/0install-python.xml">
       <version not-before="1"/>
       <environment insert="" mode="replace" name="EBOX_ZEROINSTALL"/>
     </requires>

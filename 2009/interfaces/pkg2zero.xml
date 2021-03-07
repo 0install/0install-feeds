@@ -16,10 +16,10 @@ in an existing package and uses it to generate the feed.</description>
   <needs-terminal/>
 
   <group doc-dir="doc" license="OSI Approved :: GNU General Public License v3" main="pkg2zero">
-    <requires interface="http://0install.net/2006/interfaces/0publish">
+    <requires interface="https://apps.0install.net/0install/0publish.xml">
       <environment insert="0publish" mode="replace" name="PUBLISH_COMMAND"/>
     </requires>
-    <requires interface="http://0install.net/2007/interfaces/ZeroInstall.xml">
+    <requires interface="https://apps.0install.net/0install/0install-python.xml">
       <version not-before="0.33"/>
       <environment insert="" mode="prepend" name="PYTHONPATH"/>
     </requires>
